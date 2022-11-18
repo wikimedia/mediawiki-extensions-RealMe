@@ -20,12 +20,33 @@
 namespace MediaWiki\Extension\RelMe;
 
 use MediaWiki\Hook\LinkerMakeExternalLinkHook;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\User\UserFactory;
+use MediaWiki\User\UserOptionsLookup;
 
 class Hooks implements
 	GetPreferencesHook,
 	LinkerMakeExternalLinkHook
 {
+	/** @var UserFactory */
+	private UserFactory $userFactory;
+
+	/** @var UserOptionsLookup */
+	private UserOptionsLookup $userOptionsLookup;
+
+	/**
+	 * @param UserFactory $userFactory
+	 * @param UserOptionsLookup $userOptionsLookup
+	 */
+	public function __construct(
+		UserFactory $userFactory,
+		UserOptionsLookup $userOptionsLookup
+	) {
+		$this->userFactory = $userFactory;
+		$this->userOptionsLookup = $userOptionsLookup;
+	}
+
 	public function onGetPreferences( $user, &$preferences ) {
 		$preferences[Constants::PREFERENCE_NAME] = [
 			'type'          => 'textarea',
@@ -37,6 +58,25 @@ class Hooks implements
 	}
 
 	public function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linkType ) {
-		// TODO: Implement onLinkerMakeExternalLink() method.
+		global $wgTitle;
+		$title = $wgTitle; // TODO don't do this
+
+		if ( $title->getNamespace() !== NS_USER ) {
+			return;
+		}
+
+		if ( $title->isSubpage() ) {
+			return;
+		}
+
+		$name = $title->getText();
+		$user = $this->userFactory->newFromName( $name );
+
+		$option = $this->userOptionsLookup->getOption( $user, Constants::PREFERENCE_NAME, "" );
+		$allowedUrls = explode( PHP_EOL, $option );
+
+		if ( in_array( $url, $allowedUrls ) ) {
+			$attribs['rel'] .= ' me';
+		}
 	}
 }
