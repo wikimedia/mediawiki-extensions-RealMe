@@ -75,6 +75,10 @@ class Hooks implements
 		$name = $title->getText();
 		$user = $this->userFactory->newFromName( $name );
 
+		if ( !$user ) {
+			return;
+		}
+
 		$option = $this->userOptionsLookup->getOption( $user, Constants::PREFERENCE_NAME, "" );
 		$allowedUrls = explode( PHP_EOL, $option );
 
