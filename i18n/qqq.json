@@ -4,5 +4,8 @@
 			"Taavi Väänänen"
 		]
 	},
-	"relme-desc": "{{desc|name=RelMe|url=https://www.mediawiki.org/wiki/Extension:RelMe}}"
+	"prefs-userpage": "Section header on Special:Preferences",
+	"relme-desc": "{{desc|name=RelMe|url=https://www.mediawiki.org/wiki/Extension:RelMe}}",
+	"relme-preference-desc": "Used as a preference name.",
+	"relme-preference-help": "Used as a preference help text."
 }

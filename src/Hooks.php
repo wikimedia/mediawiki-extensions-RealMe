@@ -20,7 +20,6 @@
 namespace MediaWiki\Extension\RelMe;
 
 use MediaWiki\Hook\LinkerMakeExternalLinkHook;
-use MediaWiki\MediaWikiServices;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserOptionsLookup;
@@ -47,6 +46,7 @@ class Hooks implements
 		$this->userOptionsLookup = $userOptionsLookup;
 	}
 
+	/** @inheritDoc */
 	public function onGetPreferences( $user, &$preferences ) {
 		$preferences[Constants::PREFERENCE_NAME] = [
 			'type'          => 'textarea',
@@ -57,9 +57,12 @@ class Hooks implements
 		];
 	}
 
+	/** @inheritDoc */
 	public function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linkType ) {
+		// TODO don't do this
+		// phpcs:disable MediaWiki.Usage.DeprecatedGlobalVariables.Deprecated$wgTitle
 		global $wgTitle;
-		$title = $wgTitle; // TODO don't do this
+		$title = $wgTitle;
 
 		if ( $title->getNamespace() !== NS_USER ) {
 			return;

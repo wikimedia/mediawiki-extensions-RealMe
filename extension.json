@@ -18,7 +18,7 @@
 	"HookHandlers": {
 		"main": {
 			"class": "MediaWiki\\Extension\\RelMe\\Hooks",
-			"services": ["UserFactory", "UserOptionsLookup"]
+			"services": [ "UserFactory", "UserOptionsLookup" ]
 		}
 	},
 	"Hooks": {

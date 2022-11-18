@@ -25,5 +25,5 @@ namespace MediaWiki\Extension\RelMe;
  */
 class Constants {
 	/** @var string */
-	const PREFERENCE_NAME = 'relme-urls';
+	public const PREFERENCE_NAME = 'relme-urls';
 }
