@@ -21,6 +21,8 @@
 		}
 	},
 	"Hooks": {
+		"GetPreferences": "main",
+		"LinkerMakeExternalLink": "main"
 	},
 	"MessagesDirs": {
 		"RelMe": [

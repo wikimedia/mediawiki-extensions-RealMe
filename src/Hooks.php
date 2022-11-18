@@ -19,21 +19,24 @@
 
 namespace MediaWiki\Extension\RelMe;
 
-use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\LinkerMakeExternalLinkHook;
+use MediaWiki\Preferences\Hook\GetPreferencesHook;
 
-class Hooks implements BeforePageDisplayHook {
-
-	/**
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
-	 * @param \OutputPage $out
-	 * @param \Skin $skin
-	 */
-	public function onBeforePageDisplay( $out, $skin ): void {
-		$config = $out->getConfig();
-		if ( $config->get( 'BoilerPlateVandalizeEachPage' ) ) {
-			$out->addModules( 'oojs-ui-core' );
-			$out->addHTML( \Html::element( 'p', [], 'BoilerPlate was here' ) );
-		}
+class Hooks implements
+	GetPreferencesHook,
+	LinkerMakeExternalLinkHook
+{
+	public function onGetPreferences( $user, &$preferences ) {
+		$preferences[Constants::PREFERENCE_NAME] = [
+			'type'          => 'textarea',
+			'section'       => 'personal/userpage',
+			'label-message' => 'relme-preference-desc',
+			'help-message'  => 'relme-preference-help',
+			'rows'          => 5,
+		];
 	}
 
+	public function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linkType ) {
+		// TODO: Implement onLinkerMakeExternalLink() method.
+	}
 }
