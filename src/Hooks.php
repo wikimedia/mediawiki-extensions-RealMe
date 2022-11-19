@@ -19,14 +19,14 @@
 
 namespace MediaWiki\Extension\RelMe;
 
-use MediaWiki\Hook\LinkerMakeExternalLinkHook;
+use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserOptionsLookup;
 
 class Hooks implements
-	GetPreferencesHook,
-	LinkerMakeExternalLinkHook
+	BeforePageDisplayHook,
+	GetPreferencesHook
 {
 	/** @var UserFactory */
 	private UserFactory $userFactory;
@@ -47,22 +47,11 @@ class Hooks implements
 	}
 
 	/** @inheritDoc */
-	public function onGetPreferences( $user, &$preferences ) {
-		$preferences[Constants::PREFERENCE_NAME] = [
-			'type'          => 'textarea',
-			'section'       => 'personal/userpage',
-			'label-message' => 'relme-preference-desc',
-			'help-message'  => 'relme-preference-help',
-			'rows'          => 5,
-		];
-	}
-
-	/** @inheritDoc */
-	public function onLinkerMakeExternalLink( &$url, &$text, &$link, &$attribs, $linkType ) {
-		// TODO don't do this
-		// phpcs:disable MediaWiki.Usage.DeprecatedGlobalVariables.Deprecated$wgTitle
-		global $wgTitle;
-		$title = $wgTitle;
+	public function onBeforePageDisplay( $out, $skin ) : void {
+		$title = $out->getTitle();
+		if ( !$title ) {
+			return;
+		}
 
 		if ( $title->getNamespace() !== NS_USER ) {
 			return;
@@ -72,18 +61,34 @@ class Hooks implements
 			return;
 		}
 
-		$name = $title->getText();
-		$user = $this->userFactory->newFromName( $name );
+		$user = $this->userFactory->newFromName( $title->getText() );
 
 		if ( !$user ) {
+			return;
+		}
+
+		$linksPresent = array_keys( $out->getWikiPage()->getParserOutput()->getExternalLinks() );
+
+		if ( !$linksPresent ) {
 			return;
 		}
 
 		$option = $this->userOptionsLookup->getOption( $user, Constants::PREFERENCE_NAME, "" );
 		$allowedUrls = explode( PHP_EOL, $option );
 
-		if ( in_array( $url, $allowedUrls ) ) {
-			$attribs['rel'] .= ' me';
+		foreach ( array_intersect( $linksPresent, $allowedUrls ) as $url ) {
+			$out->addLink( [ 'href' => $url, 'rel' => 'me' ] );
 		}
+	}
+
+	/** @inheritDoc */
+	public function onGetPreferences( $user, &$preferences ) {
+		$preferences[Constants::PREFERENCE_NAME] = [
+			'type'          => 'textarea',
+			'section'       => 'personal/userpage',
+			'label-message' => 'relme-preference-desc',
+			'help-message'  => 'relme-preference-help',
+			'rows'          => 5,
+		];
 	}
 }
