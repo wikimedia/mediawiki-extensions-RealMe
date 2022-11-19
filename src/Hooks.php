@@ -47,7 +47,7 @@ class Hooks implements
 	}
 
 	/** @inheritDoc */
-	public function onBeforePageDisplay( $out, $skin ) : void {
+	public function onBeforePageDisplay( $out, $skin ): void {
 		$title = $out->getTitle();
 		if ( !$title ) {
 			return;
