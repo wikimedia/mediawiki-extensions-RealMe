@@ -7,5 +7,5 @@
 	"prefs-userpage": "User page",
 	"relme-desc": "Allows verifying URLs used on user pages.",
 	"relme-preference-desc": "Profile URLs to verify:",
-	"relme-preference-help": "Please add one URL per line. These URLs will have the <code>rel=\"me\"</code> [https://en.wikipedia.org/wiki/HTML_attribute HTML attribute] set when used on your user page."
+	"relme-preference-help": "Please add one URL per line. When these URLs are used on your user page, matching <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML tags] will be added to the page."
 }
