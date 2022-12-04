@@ -1,5 +1,5 @@
 {
-	"name": "BoilerPlate",
+	"name": "RelMe",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
