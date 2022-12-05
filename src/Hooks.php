@@ -19,14 +19,14 @@
 
 namespace MediaWiki\Extension\RelMe;
 
-use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\OutputPageParserOutputHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserOptionsLookup;
 
 class Hooks implements
-	BeforePageDisplayHook,
-	GetPreferencesHook
+	GetPreferencesHook,
+	OutputPageParserOutputHook
 {
 	/** @var UserFactory */
 	private UserFactory $userFactory;
@@ -47,8 +47,19 @@ class Hooks implements
 	}
 
 	/** @inheritDoc */
-	public function onBeforePageDisplay( $out, $skin ): void {
-		$title = $out->getTitle();
+	public function onGetPreferences( $user, &$preferences ) {
+		$preferences[Constants::PREFERENCE_NAME] = [
+			'type'          => 'textarea',
+			'section'       => 'personal/userpage',
+			'label-message' => 'relme-preference-desc',
+			'help-message'  => 'relme-preference-help',
+			'rows'          => 5,
+		];
+	}
+
+	/** @inheritDoc */
+	public function onOutputPageParserOutput( $outputPage, $parserOutput ): void {
+		$title = $outputPage->getTitle();
 		if ( !$title ) {
 			return;
 		}
@@ -67,7 +78,7 @@ class Hooks implements
 			return;
 		}
 
-		$linksPresent = array_keys( $out->getWikiPage()->getParserOutput()->getExternalLinks() );
+		$linksPresent = array_keys( $parserOutput->getExternalLinks() );
 
 		if ( !$linksPresent ) {
 			return;
@@ -77,18 +88,7 @@ class Hooks implements
 		$allowedUrls = explode( PHP_EOL, $option );
 
 		foreach ( array_intersect( $linksPresent, $allowedUrls ) as $url ) {
-			$out->addLink( [ 'href' => $url, 'rel' => 'me' ] );
+			$outputPage->addLink( [ 'href' => $url, 'rel' => 'me' ] );
 		}
-	}
-
-	/** @inheritDoc */
-	public function onGetPreferences( $user, &$preferences ) {
-		$preferences[Constants::PREFERENCE_NAME] = [
-			'type'          => 'textarea',
-			'section'       => 'personal/userpage',
-			'label-message' => 'relme-preference-desc',
-			'help-message'  => 'relme-preference-help',
-			'rows'          => 5,
-		];
 	}
 }

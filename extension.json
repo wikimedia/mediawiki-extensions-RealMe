@@ -22,8 +22,8 @@
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": "main",
-		"GetPreferences": "main"
+		"GetPreferences": "main",
+		"OutputPageParserOutput": "main"
 	},
 	"MessagesDirs": {
 		"RelMe": [
