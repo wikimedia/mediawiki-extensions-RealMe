@@ -18,12 +18,12 @@
  * @file
  */
 
-namespace MediaWiki\Extension\RelMe;
+namespace MediaWiki\Extension\RealMe;
 
 /**
  * @author Taavi Väänänen <hi@taavi.wtf>
  */
 class Constants {
 	/** @var string */
-	public const PREFERENCE_NAME = 'relme-urls';
+	public const PREFERENCE_NAME = 'realme-urls';
 }

@@ -1,23 +1,23 @@
 {
-	"name": "RelMe",
+	"name": "RealMe",
 	"author": [
 		"Taavi Väänänen"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:RelMe",
-	"descriptionmsg": "relme-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:RealMe",
+	"descriptionmsg": "realme-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
 		"MediaWiki": ">= 1.40.0"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\RelMe\\": "src/"
+		"MediaWiki\\Extension\\RealMe\\": "src/"
 	},
 	"config": {
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\RelMe\\Hooks",
+			"class": "MediaWiki\\Extension\\RealMe\\Hooks",
 			"services": [ "UserFactory", "UserOptionsLookup" ]
 		}
 	},
@@ -26,7 +26,7 @@
 		"OutputPageParserOutput": "main"
 	},
 	"MessagesDirs": {
-		"RelMe": [
+		"RealMe": [
 			"i18n"
 		]
 	},

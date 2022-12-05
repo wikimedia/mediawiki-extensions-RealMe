@@ -17,7 +17,7 @@
  * @file
  */
 
-namespace MediaWiki\Extension\RelMe;
+namespace MediaWiki\Extension\RealMe;
 
 use MediaWiki\Hook\OutputPageParserOutputHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
@@ -51,8 +51,8 @@ class Hooks implements
 		$preferences[Constants::PREFERENCE_NAME] = [
 			'type'          => 'textarea',
 			'section'       => 'personal/userpage',
-			'label-message' => 'relme-preference-desc',
-			'help-message'  => 'relme-preference-help',
+			'label-message' => 'realme-preference-desc',
+			'help-message'  => 'realme-preference-help',
 			'rows'          => 5,
 		];
 	}

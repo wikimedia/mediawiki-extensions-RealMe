@@ -5,7 +5,7 @@
 		]
 	},
 	"prefs-userpage": "User page",
-	"relme-desc": "Allows verifying URLs used on user pages.",
-	"relme-preference-desc": "Profile URLs to verify:",
-	"relme-preference-help": "Please add one URL per line. When these URLs are used on your user page, matching <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML tags] will be added to the page."
+	"realme-desc": "Allows verifying URLs used on user pages.",
+	"realme-preference-desc": "Profile URLs to verify:",
+	"realme-preference-help": "Please add one URL per line. When these URLs are used on your user page, matching <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML tags] will be added to the page."
 }

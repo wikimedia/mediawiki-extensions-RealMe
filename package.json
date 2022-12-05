@@ -1,5 +1,5 @@
 {
-	"name": "RelMe",
+	"name": "RealMe",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
