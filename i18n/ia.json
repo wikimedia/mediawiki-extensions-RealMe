@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"prefs-userpage": "Pagina de usator",
+	"realme-desc": "Permitte verificar URLs usate sur pagina de usator.",
+	"realme-preference-desc": "URLs de profilo a verificar:",
+	"realme-preference-help": "Per favor adde un URL per linea. Quando iste URLs es usate in tu pagina de usator, le correspondente [https://ia.wikipedia.org/wiki/Etiquetta_de_HTML etiquettas HTML] <code><meta rel=\"me\"></code> essera addite al pagina."
+}

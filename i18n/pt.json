@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu"
+		]
+	},
+	"prefs-userpage": "Página de utilizador",
+	"realme-desc": "Permite verificar os URL usados nas páginas de utilizador.",
+	"realme-preference-desc": "Os URL de perfil a verificar:",
+	"realme-preference-help": "Adicione um URL por linha, por favor. Quando estes URL forem usados na sua página de utilizador, serão adicionadas à página <[https://en.wikipedia.org/wiki/HTML_element etiquetas HTML] <code>&lt;meta rel=\"me\"&gt;</code> correspondentes."
+}

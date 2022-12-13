@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"prefs-userpage": "Användarsida",
+	"realme-desc": "Gör så att man kan verifiera webbadresser på användarsidor.",
+	"realme-preference-desc": "Profilwebbadresser att verifiera:",
+	"realme-preference-help": "Lägg till en webbadresser per rad. När dessa webbadresser används på din användarsida kommer matchande  <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-tagg] läggas till på sidan."
+}

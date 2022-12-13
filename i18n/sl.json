@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"prefs-userpage": "Uporabniška stran",
+	"realme-desc": "Omogoča preverjanje URL-jev, uporabljenih na uporabniških straneh.",
+	"realme-preference-desc": "URL-ji profila za preverjanje:",
+	"realme-preference-help": "Dodajte en URL na vrstico. Ko bodi ti URL-ji uporabljeni na vaši uporabniški strani, bodo strani dodane ujemajoče se <code>&lt;meta rel=\"me\"&gt;</code> [https://sl.wikipedia.org/wiki/HTML-element značke HTML]."
+}

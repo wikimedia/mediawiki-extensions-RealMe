@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"prefs-userpage": "Page utilisateur",
+	"realme-desc": "Permet de vérifier les URL utilisées sur les pages utilisateur.",
+	"realme-preference-desc": "Liste d’URL de profil à vérifier :",
+	"realme-preference-help": "Veuillez ajouter une URL par ligne. Lorsque ces URL sont utilisées sur votre page utilisateur, les balises <code><meta rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element HTML] correspondantes seront ajoutées à la page."
+}
