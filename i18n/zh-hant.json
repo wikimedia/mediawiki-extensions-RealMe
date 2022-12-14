@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"捍粵者"
+		]
+	},
+	"prefs-userpage": "用戶頁",
+	"realme-desc": "允許驗證用戶頁上使用的URL。",
+	"realme-preference-help": "請每行添加一條URL。您的用戶頁用了這些URL時，符合的<code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML標籤]將加到頁面。"
+}

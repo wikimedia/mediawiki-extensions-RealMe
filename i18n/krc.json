@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Къарачайлы"
+		]
+	},
+	"prefs-userpage": "Къошулуучуну бети",
+	"realme-desc": "Хайырланыучуланы бетлеринде URL-адреслени верификация этерге амал береди.",
+	"realme-preference-desc": "Верификация ючюн профильни URL-адреслери:",
+	"realme-preference-help": "Хар сатыргъа биришер URL-адрес къош. Сизни хайырланыучу бетигизде бу URL-адресле хайырлансала, келишген HTML-тегле <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element] бетге къошуллукъдула."
+}

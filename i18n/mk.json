@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"prefs-userpage": "Корисничка страница",
+	"realme-desc": "Секогаш проверува URL-а користени на кориснички страници.",
+	"realme-preference-desc": "Профилни URL-а за проверка:",
+	"realme-preference-help": "Ставајте по една URL во секој ред. Кога тие URL-а се користат на ваша корисничка страница, во страницата ќе се додадат складни <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-ознаки]."
+}
