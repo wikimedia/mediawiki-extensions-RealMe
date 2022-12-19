@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"prefs-userpage": "Páxina de usuario",
+	"realme-desc": "Permite verificar os enderezos URL utilizados nas páxinas de usuario.",
+	"realme-preference-desc": "Enderezos URL dos perfís a verificar:",
+	"realme-preference-help": "Engada un enderezo URL por liña. Cando se usan estes enderezos URL na súa páxina de usuario, engádense á páxina as [https://en.wikipedia.org/wiki/HTML_element etiquetas HTML] <code>&lt;meta rel=\"me\"&gt;</code>."
+}
