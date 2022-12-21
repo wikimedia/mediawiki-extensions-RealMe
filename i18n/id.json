@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Agam Riyandana"
+		]
+	},
+	"prefs-userpage": "Halaman pengguna",
+	"realme-preference-help": "Harap tambahkan satu URL per baris. Saat URL ini digunakan di halaman pengguna Anda, <code><meta rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element tag HTML] yang cocok akan ditambahkan ke halaman."
+}
