@@ -1,9 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Nadjita"
+		]
 	},
 	"prefs-userpage": "Benutzerseite",
 	"realme-desc": "Ermöglicht die Überprüfung von URLs, die auf Benutzerseiten verwendet werden.",
 	"realme-preference-desc": "Zu überprüfende Profil-URLs:",
-	"realme-preference-help": "Bitte füge eine URL pro Zeile hinzu. Wenn diese URLs auf deiner Benutzerseite verwendet wird, werden der Seite passende <code>&lt;meta rel=\"me\"&gt;</code> [https://de.wikipedia.org/wiki/Element_(Auszeichnungssprache) HTML-Tags] hinzugefügt."
+	"realme-preference-help": "Bitte füge eine URL pro Zeile hinzu. Wenn diese URLs auf deiner Benutzerseite verwendet werden, werden der Seite passende <code>&lt;meta rel=\"me\"&gt;</code> [https://de.wikipedia.org/wiki/Element_(Auszeichnungssprache) HTML-Tags] hinzugefügt."
 }
