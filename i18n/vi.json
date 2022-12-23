@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nguyenphutrong2"
+		]
+	},
+	"prefs-userpage": "trang người dùng",
+	"realme-desc": "Cho phép xác minh các URL được sử dụng trên các trang của người dùng.",
+	"realme-preference-desc": "URL hồ sơ để xác minh:",
+	"realme-preference-help": "Vui lòng thêm một URL trên mỗi dòng. Khi các URL này được sử dụng trên trang thành viên của bạn, <code><meta rel=\"me\"></code> [https://vi.wikipedia.org/wiki/HTML_element thẻ HTML] phù hợp sẽ được thêm vào trang."
+}
