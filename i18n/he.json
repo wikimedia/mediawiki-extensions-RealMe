@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"prefs-userpage": "דף משתמש",
+	"realme-desc": "אפשרות אימות כתובות URL בשימוש בדפי משתמשים.",
+	"realme-preference-desc": "כתובות URL של פרופיל לאימות:",
+	"realme-preference-help": "נא להוסיף כתובת URL אחת בכל שורה. כאשר נעשה שימוש בכתובות ה־URL האלה בדף המשתמש שלך, <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element תגי HTML] מתאימים יתווספו לדף."
+}
