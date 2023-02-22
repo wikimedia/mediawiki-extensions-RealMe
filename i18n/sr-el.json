@@ -1,6 +1,11 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Kizule"
+		]
 	},
-	"prefs-userpage": "Korisnička stranica"
+	"prefs-userpage": "Korisnička stranica",
+	"realme-desc": "Omogućava verifikovanje veza koji se koriste na korisničkim stranicama.",
+	"realme-preference-desc": "Veze profila za verifikaciju:",
+	"realme-preference-help": "Molimo vas da dodate jednu vezu po liniji. Kada se ove veze koriste na vašoj korisničkoj stranici, podudarajuće <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML oznake] će biti dodate stranici."
 }
