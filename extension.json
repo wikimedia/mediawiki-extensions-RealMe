@@ -14,11 +14,20 @@
 		"MediaWiki\\Extension\\RealMe\\": "src/"
 	},
 	"config": {
+		"RealMeUserPageUrlLimit": {
+			"description": "The limit for how many RealMe URLs can be configured on a single user page.",
+			"value": 5
+		}
 	},
 	"HookHandlers": {
 		"main": {
 			"class": "MediaWiki\\Extension\\RealMe\\Hooks",
-			"services": [ "UserFactory", "UserOptionsLookup" ]
+			"services": [
+				"MainConfig",
+				"UrlUtils",
+				"UserFactory",
+				"UserOptionsLookup"
+			]
 		}
 	},
 	"Hooks": {

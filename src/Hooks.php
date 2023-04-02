@@ -19,15 +19,29 @@
 
 namespace MediaWiki\Extension\RealMe;
 
+use Config;
+use HTMLForm;
+use MediaWiki\Config\ServiceOptions;
 use MediaWiki\Hook\OutputPageParserOutputHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserOptionsLookup;
+use MediaWiki\Utils\UrlUtils;
 
 class Hooks implements
 	GetPreferencesHook,
 	OutputPageParserOutputHook
 {
+	private const CONSTRUCTOR_OPTIONS = [
+		'RealMeUserPageUrlLimit',
+	];
+
+	/** @var ServiceOptions */
+	private ServiceOptions $options;
+
+	/** @var UrlUtils */
+	private UrlUtils $urlUtils;
+
 	/** @var UserFactory */
 	private UserFactory $userFactory;
 
@@ -35,13 +49,19 @@ class Hooks implements
 	private UserOptionsLookup $userOptionsLookup;
 
 	/**
+	 * @param Config $mainConfig
+	 * @param UrlUtils $urlUtils
 	 * @param UserFactory $userFactory
 	 * @param UserOptionsLookup $userOptionsLookup
 	 */
 	public function __construct(
+		Config $mainConfig,
+		UrlUtils $urlUtils,
 		UserFactory $userFactory,
 		UserOptionsLookup $userOptionsLookup
 	) {
+		$this->options = new ServiceOptions( self::CONSTRUCTOR_OPTIONS, $mainConfig );
+		$this->urlUtils = $urlUtils;
 		$this->userFactory = $userFactory;
 		$this->userOptionsLookup = $userOptionsLookup;
 	}
@@ -53,7 +73,45 @@ class Hooks implements
 			'section'       => 'personal/userpage',
 			'label-message' => 'realme-preference-desc',
 			'help-message'  => 'realme-preference-help',
-			'rows'          => 5,
+			'rows'          => min( 5, $this->options->get( 'RealMeUserPageUrlLimit' ) ),
+
+			'validation-callback' => function ( $optionValue, $allData, HTMLForm $form ) {
+				$urls = explode( PHP_EOL, $optionValue ?? '' );
+
+				$errors = [];
+				$count = 0;
+
+				foreach ( $urls as $url ) {
+					if ( trim( $url ) === '' ) {
+						continue;
+					}
+
+					$count += 1;
+
+					$parsed = $this->urlUtils->parse( $url );
+					if ( !$parsed ) {
+						$errors[] = $form->msg( 'realme-preference-error-invalid' )
+							->plaintextParams( $url );
+						continue;
+					}
+
+					if ( $parsed['scheme'] !== 'http' && $parsed['scheme'] !== 'https' ) {
+						$errors[] = $form->msg( 'realme-preference-error-not-http' )
+							->plaintextParams( $url, $parsed['scheme'] . $parsed['delimiter'] );
+					}
+				}
+
+				if ( $count > $this->options->get( 'RealMeUserPageUrlLimit' ) ) {
+					$errors[] = $form->msg( 'realme-preference-error-too-many' )
+						->params( $this->options->get( 'RealMeUserPageUrlLimit' ) );
+				}
+
+				if ( $errors ) {
+					return $errors;
+				}
+
+				return true;
+			},
 		];
 	}
 
