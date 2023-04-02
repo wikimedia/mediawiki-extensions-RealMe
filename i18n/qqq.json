@@ -7,5 +7,8 @@
 	"prefs-userpage": "Section header on Special:Preferences",
 	"realme-desc": "{{desc|name=RealMe|url=https://www.mediawiki.org/wiki/Extension:RealMe}}",
 	"realme-preference-desc": "Used as a preference name.",
+	"realme-preference-error-invalid": "Used as a validation error on Special:Preferences. $1 is the individual text line that does not pass URL validation.",
+	"realme-preference-error-not-http": "Used as a validation error on Special:Preferences. $1 is the individual URL that does not pass validation and $2 is the used protocol, for example 'ftp://'.",
+	"realme-preference-error-too-many": "Used as a validation error on Special:Preferences. $1 is the number of maximum allowed URLs.",
 	"realme-preference-help": "Used as a preference help text."
 }
