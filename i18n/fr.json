@@ -7,5 +7,8 @@
 	"prefs-userpage": "Page utilisateur",
 	"realme-desc": "Permet de vérifier les URL utilisées sur les pages utilisateur.",
 	"realme-preference-desc": "Liste d’URL de profil à vérifier :",
+	"realme-preference-error-invalid": "<code>$1</code> n’est pas une URL valide.",
+	"realme-preference-error-not-http": "L’URL <code>$1</code> doit utiliser <code>http://</code> ou <code>https://</code> comme protocole au lieu de <code>$2</code>.",
+	"realme-preference-error-too-many": "Vous ne pouvez spécifier qu{{PLURAL:$1|’une seule|e $1}} URL.",
 	"realme-preference-help": "Veuillez ajouter une URL par ligne. Lorsque ces URL sont utilisées sur votre page utilisateur, les balises <code><meta rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element HTML] correspondantes seront ajoutées à la page."
 }
