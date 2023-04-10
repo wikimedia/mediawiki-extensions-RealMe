@@ -8,5 +8,6 @@
 	"prefs-userpage": "Корисничка страница",
 	"realme-desc": "Омогућава верификовање веза који се користе на корисничким страницама.",
 	"realme-preference-desc": "Везе профила за верификацију:",
+	"realme-preference-error-invalid": "<code>$1</code> није важећи URL.",
 	"realme-preference-help": "Молимо вас да додате једну везу по линији. Када се ове везе користе на вашој корисничкој страници, подударајуће <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML ознаке] ће бити додате страници."
 }
