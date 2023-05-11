@@ -6,9 +6,9 @@
 	},
 	"prefs-userpage": "User page",
 	"realme-desc": "Allows verifying URLs used on user pages.",
-	"realme-preference-desc": "Profile URLs to verify:",
+	"realme-preference-desc": "URLs to external profiles:",
 	"realme-preference-error-invalid": "<code>$1</code> is not a valid URL.",
 	"realme-preference-error-not-http": "URL <code>$1</code> must use either <code>http://</code> or <code>https://</code> as the protocol instead of <code>$2</code>.",
 	"realme-preference-error-too-many": "You may only specify {{PLURAL:$1|one URL|$1 URLs}}.",
-	"realme-preference-help": "Please add one URL per line. When these URLs are used on your user page, matching <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML tags] will be added to the page."
+	"realme-preference-help": "Please add one URL per line. When these URLs are used on your user page, matching <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML tags] will be added to the page, which some platforms (for example, Mastodon) use to mark profile links as verified."
 }
