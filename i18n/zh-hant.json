@@ -2,13 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Kly",
+			"Lakejason0",
+			"SunAfterRain",
 			"Winston Sung",
 			"捍粵者"
 		]
 	},
-	"prefs-userpage": "用戶頁",
-	"realme-desc": "允許驗證用戶頁上使用的URL。",
-	"realme-preference-desc": "要驗證的個人檔案 URL：",
-	"realme-preference-error-invalid": "<code>$1</code> 不是有效的URL。",
-	"realme-preference-help": "請每行添加一條URL。您的用戶頁用了這些URL時，符合的<code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML標籤]將加到頁面。"
+	"prefs-userpage": "使用者頁面",
+	"realme-desc": "允許驗證使用者頁面上使用的網址。",
+	"realme-preference-desc": "指向外部個人資料的網址：",
+	"realme-preference-error-invalid": "<code>$1</code>不是有效的網址。",
+	"realme-preference-error-not-http": "網址<code>$1</code>必須使用<code>http://</code>或<code>https://</code>協議而非<code>$2</code>。",
+	"realme-preference-error-too-many": "您只能指定{{PLURAL:$1|$1個網址}}。",
+	"realme-preference-help": "每行添加一個網址。當填入的網址用於您的使用者頁面上時，相應的<code>&lt;link rel=\"me\"&gt;</code>[https://zh.wikipedia.org/wiki/HTML元素 HTML標籤]將會加入頁面，部分平台（例如Mastodon）會將其用於驗證個人資料連結。參見MediaWiki.org上的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe 說明頁面]。"
 }

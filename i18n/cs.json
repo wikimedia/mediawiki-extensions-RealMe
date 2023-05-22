@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mormegil"
+		]
+	},
+	"prefs-userpage": "Uživatelská stránka",
+	"realme-desc": "Umožňuje ověřit URL použitá na uživatelských stránkách.",
+	"realme-preference-desc": "URL na externí profily:",
+	"realme-preference-error-invalid": "<code>$1</code> není platné URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> musí jako protokol namísto <code>$2</code> používat <code>http://</code> nebo <code>https://</code>.",
+	"realme-preference-error-too-many": "Můžete uvést jen {{PLURAL:$1|jedno URL|$1 URL}}.",
+	"realme-preference-help": "Vložte po jednom URL na řádek. Když budou tato URL použita na vaší uživatelské stránce, bude do stránky vložena odpovídající [https://cs.wikipedia.org/wiki/HTML_prvek HTML značka] <code>&lt;link rel=\"me\"&gt;</code>, kterou některé platformy (např. Mastodon) používají pro označení odkazů z&nbsp;profilu jako ověřených."
+}

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"SunAfterRain"
+		]
+	},
+	"prefs-userpage": "用戶頁",
+	"realme-desc": "允許驗證用戶頁上使用的網址。",
+	"realme-preference-help": "每行添加一個網址。當填入的網址用於您的用戶頁上時，相應的<code>&lt;link rel=\"me\"&gt;</code>[https://zh.wikipedia.org/wiki/HTML元素 HTML標籤]將會添加到頁面上，部分平台（例如Mastodon）會將其用於驗證個人資料鏈接。"
+}
