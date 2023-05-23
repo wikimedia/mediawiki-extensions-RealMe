@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jeeputer"
+		]
+	},
+	"prefs-userpage": "صفحهٔ کاربری",
+	"realme-desc": "امکان تأیید نشانی‌های وب مورد استفاده در صفحه‌های کاربری را فراهم می‌کند.",
+	"realme-preference-desc": "پیوندهای وب به نمایه‌های بیرونی:",
+	"realme-preference-error-invalid": "<code>$1</code> نشانی وب معتبری نیست.",
+	"realme-preference-error-not-http": "نشانی وب <code>$1</code> باید به‌جای <code>$2</code> از <code>http://</code> یا <code>https://</code> به‌عنوان پروتکل استفاده کند.",
+	"realme-preference-error-too-many": "شما تنها می‌توانید {{PLURAL:$1|یک نشانی وب|$1 نشانی وب}} را وارد کنید.",
+	"realme-preference-help": "لطفاً در هر سطر یک نشانی بیافزایید. هرگاه این نشانی‌های وب در صفحهٔ کاربری شما استفاده شوند، [https://fa.wikipedia.org/wiki/%D8%B9%D9%86%D8%B5%D8%B1_%D8%A7%DA%86%E2%80%8C%D8%AA%DB%8C%E2%80%8C%D8%A7%D9%85%E2%80%8C%D8%A7%D9%84 برچسب‌های اچ‌تی‌ام‌ال] <code>&lt;link rel=\"me\"&gt;</code> منطبق با آن به صفحه افزوده خواهند شد و برخی پلتفرم‌ها (نظیر ماستودون) از آن برای نشان‌گذاری پیوندهای نمایه به‌عنوان تأییدشده استفاده می‌کنند. برای اطلاعات بیشتر، [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe صفحهٔ راهنما] در MediaWiki.org را ببینید."
+}
