@@ -10,5 +10,5 @@
 	"realme-preference-error-invalid": "<code>$1</code> n’est pas une URL valide.",
 	"realme-preference-error-not-http": "L’URL <code>$1</code> doit utiliser <code>http://</code> ou <code>https://</code> comme protocole au lieu de <code>$2</code>.",
 	"realme-preference-error-too-many": "Vous ne pouvez spécifier qu{{PLURAL:$1|’une seule|e $1}} URL.",
-	"realme-preference-help": "Veuillez ajouter une URL par ligne. Lorsque ces URL sont utilisées sur votre page utilisateur, les [https://en.wikipedia.org/wiki/HTML_element balises HTML] <code>&lt;link rel=\"me\"&gt;</code> correspondantes seront ajoutées à la page, que certaines plateformes (par exemple, Mastodon) utilisent pour marquer les liens de profil comme vérifiés."
+	"realme-preference-help": "Veuillez ajouter une URL par ligne. Lorsque ces URL sont utilisées sur votre page utilisateur, des [https://fr.wikipedia.org/wiki/%C3%89l%C3%A9ment_HTML éléments HTML] <code>&lt;link rel=\"me\"&gt;</code> correspondants seront ajoutées à la page, que certaines plateformes (par exemple, Mastodon) utilisent pour marquer les liens de profil comme vérifiés. Pour plus d’informations, consultez la [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe page d’aide] sur MediaWiki.org."
 }

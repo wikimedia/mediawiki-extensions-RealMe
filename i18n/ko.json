@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"prefs-userpage": "사용자 문서",
+	"realme-desc": "사용자 문서에 사용되는 URL 유효성 확인을 허용합니다.",
+	"realme-preference-desc": "외부 프로파일에 대한 URL:",
+	"realme-preference-error-invalid": "<code>$1</code> 항목은 유효한 URL이 아닙니다.",
+	"realme-preference-error-not-http": "<code>$1</code> URL은 <code>$2</code> 대신 <code>http://</code> 또는 <code>https://</code>를 프로토콜로 사용해야 합니다.",
+	"realme-preference-error-too-many": "{{PLURAL:$1|URL을 1개|URL을 $1개}}만 지정할 수 있습니다.",
+	"realme-preference-help": "한 줄에 하나의 URL을 추가해 주십시오. 이들 URL이 사용자 문서에 사용될 때 일치하는 <code>&lt;link rel=\"me\"&gt;</code> [https://ko.wikipedia.org/wiki/HTML_%EC%9A%94%EC%86%8C HTML 요소]가 해당 문서에 추가되며 일부 플랫폼(예: 마스토돈)이 프로파일 링크를 유효한 것으로 표시하기 위해 사용합니다."
+}
