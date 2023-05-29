@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joao Xavier"
+		]
+	},
+	"realme-preference-desc": "Mencionez hike URL ad externa profili:",
+	"realme-preference-help": "Voluntez adjuntar 1 URL po lineo. Kande ca URL-i uzesas en vua uzero-pagino, asortado <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element etiketi HTML] adjuntesos a la pagino, qui uzesos da kelka platformi (exemple, Mastodon) por montrar ke ca ligili verifikesis. Por plusa informo, videz [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe la helpo-pagino] che MediaWiki.org."
+}
