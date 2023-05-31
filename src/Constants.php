@@ -26,4 +26,6 @@ namespace MediaWiki\Extension\RealMe;
 class Constants {
 	/** @var string */
 	public const PREFERENCE_NAME = 'realme-urls';
+	/** @var string */
+	public const CONFIG_PAGE = 'Realme-config.json';
 }
