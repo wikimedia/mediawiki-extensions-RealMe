@@ -64,7 +64,7 @@ class Hooks implements
 			return;
 		}
 
-		if ( $title->getNamespace() !== NS_USER ) {
+		if ( !$title->inNamespaces( NS_USER, NS_USER_TALK ) ) {
 			return;
 		}
 
