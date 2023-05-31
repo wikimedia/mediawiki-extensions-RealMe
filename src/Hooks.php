@@ -20,15 +20,27 @@
 namespace MediaWiki\Extension\RealMe;
 
 use Config;
+use Content;
+use FormatJson;
 use HTMLForm;
+use IContextSource;
+use JsonContent;
 use MediaWiki\Config\ServiceOptions;
+use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\EditFilterMergedContentHook;
 use MediaWiki\Hook\OutputPageParserOutputHook;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
 use MediaWiki\User\UserFactory;
 use MediaWiki\User\UserOptionsLookup;
 use MediaWiki\Utils\UrlUtils;
+use ParserOutput;
+use Status;
+use Title;
+use User;
 
 class Hooks implements
+	BeforePageDisplayHook,
+	EditFilterMergedContentHook,
 	GetPreferencesHook,
 	OutputPageParserOutputHook
 {
@@ -67,6 +79,55 @@ class Hooks implements
 	}
 
 	/** @inheritDoc */
+	public function onBeforePageDisplay( $out, $skin ): void {
+		// Add a help link on the JSON config page
+		$title = $out->getTitle();
+		if ( $title && $title->inNamespace( NS_MEDIAWIKI )
+			&& $title->getText() === Constants::CONFIG_PAGE ) {
+			$out->addHelpLink( 'Help:Extension:RealMe' );
+		}
+	}
+
+	/** @inheritDoc */
+	public function onEditFilterMergedContent( IContextSource $context, Content $content, Status $status,
+		$summary, User $user, $minoredit
+	) {
+		$title = $context->getTitle();
+		if ( !$title || !$title->inNamespace( NS_MEDIAWIKI )
+			|| $title->getText() !== Constants::CONFIG_PAGE ) {
+			return;
+		}
+
+		if ( !$content instanceof JsonContent ) {
+			// Huh??
+			return;
+		}
+		if ( !$content->getData()->isGood() ) {
+			// Will error out anyways
+			return;
+		}
+
+		$validator = new Validator( $context, $this->urlUtils );
+		$errors = [];
+		$data = wfObjectToArray( $content->getData()->getValue() );
+		foreach ( $data as $title => $urls ) {
+			$errors = array_merge( $errors, $validator->checkTitle( $title ) );
+			foreach ( (array)$urls as $url ) {
+				$errors = array_merge( $errors, $validator->checkUrl( $url ) );
+			}
+		}
+
+		if ( $errors ) {
+			foreach ( $errors as $error ) {
+				$status->fatal( $error );
+			}
+			return false;
+		} else {
+			return true;
+		}
+	}
+
+	/** @inheritDoc */
 	public function onGetPreferences( $user, &$preferences ) {
 		$preferences[Constants::PREFERENCE_NAME] = [
 			'type'          => 'textarea',
@@ -80,6 +141,7 @@ class Hooks implements
 
 				$errors = [];
 				$count = 0;
+				$validator = new Validator( $form, $this->urlUtils );
 
 				foreach ( $urls as $url ) {
 					if ( trim( $url ) === '' ) {
@@ -88,17 +150,7 @@ class Hooks implements
 
 					$count += 1;
 
-					$parsed = $this->urlUtils->parse( $url );
-					if ( !$parsed ) {
-						$errors[] = $form->msg( 'realme-preference-error-invalid' )
-							->plaintextParams( $url );
-						continue;
-					}
-
-					if ( $parsed['scheme'] !== 'http' && $parsed['scheme'] !== 'https' ) {
-						$errors[] = $form->msg( 'realme-preference-error-not-http' )
-							->plaintextParams( $url, $parsed['scheme'] . $parsed['delimiter'] );
-					}
+					$errors = array_merge( $errors, $validator->checkUrl( $url ) );
 				}
 
 				if ( $count > $this->options->get( 'RealMeUserPageUrlLimit' ) ) {
@@ -115,17 +167,13 @@ class Hooks implements
 		];
 	}
 
-	/** @inheritDoc */
-	public function onOutputPageParserOutput( $outputPage, $parserOutput ): void {
-		$title = $outputPage->getTitle();
-		if ( !$title ) {
-			return;
-		}
-
-		if ( !$title->inNamespaces( NS_USER, NS_USER_TALK ) ) {
-			return;
-		}
-
+	/**
+	 * Given a Title that corresponds to a User or User talk page, look up the links
+	 * that should be added to that page
+	 *
+	 * @return ?array
+	 */
+	private function getLinksForUser( Title $title, ParserOutput $parserOutput ) {
 		if ( $title->isSubpage() ) {
 			return;
 		}
@@ -145,8 +193,42 @@ class Hooks implements
 		$option = $this->userOptionsLookup->getOption( $user, Constants::PREFERENCE_NAME, "" );
 		$allowedUrls = explode( PHP_EOL, $option );
 
-		foreach ( array_intersect( $linksPresent, $allowedUrls ) as $url ) {
-			$outputPage->addLink( [ 'href' => $url, 'rel' => 'me' ] );
+		return array_intersect( $linksPresent, $allowedUrls );
+	}
+
+	/**
+	 * Given a non-user Title, look up the links that should be added to that page
+	 *
+	 * @return ?array
+	 */
+	private function getLinksFromConfig( Title $title ) {
+		$config = FormatJson::decode( wfMessage( 'realme-config.json' )->inContentLanguage()->plain(), true );
+		if ( !is_array( $config ) ) {
+			return;
+		}
+
+		$urls = $config[$title->getPrefixedText()] ?? [];
+		return (array)$urls;
+	}
+
+	/** @inheritDoc */
+	public function onOutputPageParserOutput( $outputPage, $parserOutput ): void {
+		$title = $outputPage->getTitle();
+		if ( !$title ) {
+			return;
+		}
+
+		if ( !$title->inNamespaces( NS_USER, NS_USER_TALK ) ) {
+			// Check sitewide config
+			$urls = $this->getLinksFromConfig( $title );
+		} else {
+			$urls = $this->getLinksForUser( $title, $parserOutput );
+		}
+
+		if ( $urls ) {
+			foreach ( $urls as $url ) {
+				$outputPage->addLink( [ 'href' => $url, 'rel' => 'me' ] );
+			}
 		}
 	}
 }
