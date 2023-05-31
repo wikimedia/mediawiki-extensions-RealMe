@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Srđan"
+		]
+	},
+	"prefs-userpage": "Korisnička stranica",
+	"realme-desc": "Omogućava verifikaciju linkova koji se koriste na korisničkim stranicama.",
+	"realme-preference-desc": "Linkovi ka vanjskim profilima:",
+	"realme-preference-error-invalid": "<code>$1</code> nije ispravan URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> mora koristiti <code>http://</code> ili <code>https://</code> kao protokol umjesto <code>$2</code>.",
+	"realme-preference-error-too-many": "Možete navesti samo $1 {{PLURAL:$1|URL|URL-a|URL-ova}}.",
+	"realme-preference-help": "Red treba sadržavati samo jedan URL. Kada se URL-ovi koriste na korisničkoj stranici, na nju će se dodati odgovarajuće [https://en.wikipedia.org/wiki/HTML_element HTML-oznake] u obliku <code>&lt;link rel=\"me\"&gt;</code>, što neke platforme (poput Mastodona) koriste za verifikaciju profilnih linkova. Pogledajte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe pomoćnu stranicu] na sajtu MediaWiki.org za više informacija."
+}
