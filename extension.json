@@ -31,6 +31,8 @@
 		}
 	},
 	"Hooks": {
+		"BeforePageDisplay": "main",
+		"EditFilterMergedContent": "main",
 		"GetPreferences": "main",
 		"OutputPageParserOutput": "main"
 	},
