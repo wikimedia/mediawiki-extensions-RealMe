@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Pikne"
+		]
+	},
+	"prefs-userpage": "Kasutajalehekülg",
+	"realme-desc": "Võimaldab kinnitada kasutajaleheküljel kasutatud URL-id.",
+	"realme-preference-desc": "Väliste profiilide URL-id:",
+	"realme-preference-error-invalid": "<code>$1</code> ei ole kehtiv URL.",
+	"realme-preference-error-not-http": "URL-i <code>$1</code> protokoll peab olema <code>http://</code> või <code>https://</code>, mitte <code>$2</code>.",
+	"realme-preference-error-too-many": "Saad määrata ainult {{PLURAL:$1|ühe|$1}} URL-i.",
+	"realme-preference-help": "Palun lisa rea kohta üks URL. Kui kasutad neid URL-e enda kasutajaleheküljel, siis lisatakse leheküljele vastav [https://en.wikipedia.org/wiki/HTML_element HTML-silt] <code>&lt;link rel=\"me\"&gt;</code>, mida mõni platvorm, näiteks Mastodon, kasutab, et märkida profiil kinnitatuks. Lisateavet leiad [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe abilehelt] MediaWiki.org-is."
+}
