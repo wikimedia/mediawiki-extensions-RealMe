@@ -8,7 +8,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
-		"MediaWiki": ">= 1.39.3"
+		"MediaWiki": ">= 1.41.0"
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\RealMe\\": "src/"
