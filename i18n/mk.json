@@ -6,9 +6,11 @@
 	},
 	"prefs-userpage": "Корисничка страница",
 	"realme-desc": "Секогаш проверува URL-а користени на кориснички страници.",
-	"realme-preference-desc": "Профилни URL-а за проверка:",
+	"realme-preference-desc": "URL-а кон надворешни профили:",
 	"realme-preference-error-invalid": "<code>$1</code> не претставува важечка URL-адреса.",
 	"realme-preference-error-not-http": "URL-адресата <code>$1</code> мора да користи <code>http://</code> или <code>https://</code> како протокол наместо <code>$2</code>.",
 	"realme-preference-error-too-many": "Можете да укажете само {{PLURAL:$1|една URL-адреса|$1 URL-адреси}}.",
-	"realme-preference-help": "Ставајте по една URL во секој ред. Кога тие URL-а се користат на ваша корисничка страница, во страницата ќе се додадат складни <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-ознаки]."
+	"realme-preference-help": "Ставајте по една URL во секој ред. Кога тие URL-а се користат на ваша корисничка страница, во страницата ќе се додадат складни <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-ознаки], кои некои подлоги (на пр. Mastodon) ги користат за обележување на профилни врски како проверени. За повеќе информации погледајте ја [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe помошната страница] на MediaWiki.org.",
+	"realme-config-error-canonical": "Насловите на страниците мора да бидат укажани во нивниот канонски облик. Користете <code>$1</code> наместо <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> не претставува важечки наслов на страница."
 }
