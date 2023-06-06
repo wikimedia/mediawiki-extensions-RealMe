@@ -227,7 +227,7 @@ class Hooks implements
 
 		if ( $urls ) {
 			foreach ( $urls as $url ) {
-				$outputPage->addLink( [ 'href' => $url, 'rel' => 'me' ] );
+				$outputPage->addLink( [ 'rel' => 'me', 'href' => $url ] );
 			}
 		}
 	}
