@@ -4,5 +4,6 @@
 			"Beta16"
 		]
 	},
-	"prefs-userpage": "Pagina utente"
+	"prefs-userpage": "Pagina utente",
+	"realme-preference-error-invalid": "<code>$1</code> non è un URL valido."
 }

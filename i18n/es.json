@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"No se"
+		]
+	},
+	"realme-preference-error-too-many": "Solo puedes especificar {{PLURAL:$1|una URL|$1 URLs}}.",
+	"realme-preference-help": "Agregue una URL por línea. Cuando estas URL se usan en su página de usuario, se agregarán <code>&lt;link rel=\"me\"&gt;</code> [[Wikipedia:es:Elemento HTML|etiquetas HTML]] a la página, que algunas plataformas (por ejemplo, Mastodon) utilizan para marcar enlaces de perfil como verificados."
+}
