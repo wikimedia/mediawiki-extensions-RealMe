@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Agam Riyandana"
+			"Agam Riyandana",
+			"David Wadie Fisher-Freberg"
 		]
 	},
 	"prefs-userpage": "Halaman pengguna",
 	"realme-desc": "Mengizinkan memverifikasi URL yang digunakan pada halaman pengguna.",
-	"realme-preference-desc": "URL profil yang akan diverifikasi:",
+	"realme-preference-desc": "URL ke profil eksternal:",
 	"realme-preference-help": "Harap tambahkan satu URL per baris. Saat URL ini digunakan di halaman pengguna Anda, <code><meta rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element tag HTML] yang cocok akan ditambahkan ke halaman."
 }

@@ -10,5 +10,7 @@
 	"realme-preference-error-invalid": "<code>$1</code> הוא לא URL תקין.",
 	"realme-preference-error-not-http": "כתובת האתר <code>$1</code> חייבת להשתמש ב־<code>http://</code> או ב־<code>https://</code> כפרוטוקול ולא ב־<code>$2</code>.",
 	"realme-preference-error-too-many": "באפשרותך לציין רק {{PLURAL:$1|כתובת URL אחת|$1 כתובות URL}}.",
-	"realme-preference-help": "נא להוסיף כתובת URL אחת בכל שורה. כאשר נעשה שימוש בכתובות ה־URL האלה בדף המשתמש שלך, <code dir=\"ltr\">&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element תגי HTML] מתאימים יתווספו לדף, שפלטפורמות מסוימות (למשל מסטודון) משתמשות בהם כדי לסמן קישורי פרופיל כמאומתים. למידע נוסף ר' את [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe דף העזרה] באתר mediawiki.org."
+	"realme-preference-help": "נא להוסיף כתובת URL אחת בכל שורה. כאשר נעשה שימוש בכתובות ה־URL האלה בדף המשתמש שלך, <code dir=\"ltr\">&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element תגי HTML] מתאימים יתווספו לדף, שפלטפורמות מסוימות (למשל מסטודון) משתמשות בהם כדי לסמן קישורי פרופיל כמאומתים. למידע נוסף ר' את [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe דף העזרה] באתר mediawiki.org.",
+	"realme-config-error-canonical": "יש לציין את כותרות הדפים בצורתם הקנונית, כלומר להשתמש בצורה <code>$1</code> ולא <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> אינה כותרת דף תקינה."
 }
