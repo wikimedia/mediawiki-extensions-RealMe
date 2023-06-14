@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"NGC 54"
+		]
+	},
+	"prefs-userpage": "Pagină de utilizator",
+	"realme-preference-desc": "URL-uri către profiluri externe:",
+	"realme-preference-help": "Vă rugăm să adăugați câte un singur URL pe rând. Atunci când aceste URL-uri sunt folosite pe pagina dvs. de utilizator, vor fi adăugate pe pagină <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element etichete HTML] corespunzătoare, pe care unele platforme (de exemplu, Mastodon) le folosesc pentru a marca legături către profiluri drept verificate. Pentru mai multe informații vedeți [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe pagina de ajutor] de la MediaWiki.org."
+}
