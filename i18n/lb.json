@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Robby"
+			"Robby",
+			"Volvox"
 		]
 	},
-	"prefs-userpage": "Benotzersäit"
+	"prefs-userpage": "Benotzersäit",
+	"realme-config-error-canonical": "Säitentitele mussen an hirer kanonescher Form ugi ginn, benotzt <code>$1</code> amplaz <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> ass kee gültege Säitentitel."
 }
