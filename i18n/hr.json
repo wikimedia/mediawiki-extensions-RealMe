@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"MaGa"
+		]
+	},
+	"prefs-userpage": "Suradnička stranica",
+	"realme-desc": "Omogućuje provjeru mrežnih adresa (URL-ova) koje se koriste na suradničkim stranicama.",
+	"realme-preference-desc": "Mrežne adrese prema vanjskim profilima",
+	"realme-preference-error-invalid": "<code>$1</code> nije važeća mrežna adresa.",
+	"realme-preference-error-not-http": "Mrežna adresa (URL) <code>$1</code> kao protokol mora umjesto <code>$2</code> koristiti <code>http://</code> ili <code>https://</code>.",
+	"realme-preference-error-too-many": "Možete navesti {{PLURAL:$1|jednu mrežnu adresu|$1 mrežne adrese|$1 mrežnih adresa}}.",
+	"realme-preference-help": "Molimo dodajte jednu mrežnu adresu po retku. Kada se ove mrežne adrese koriste na Vašoj suradničkoj stranici, biti će dodane odgovarajuće <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML oznake], koje određene platforme (npr. Mastodon) rabe da bi označile poveznice profila kao provjerene. Za više informacija pogledajte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stranicu pomoći] na MediaWiki.org.",
+	"realme-config-error-canonical": "Naslovi stranica moraju biti navedeni u kanonskom obliku; umjesto <code>$2</code> koristite <code>$1</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> nije važeći naslov stranice."
+}

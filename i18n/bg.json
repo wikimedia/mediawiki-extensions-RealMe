@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"StanProg"
+		]
+	},
+	"prefs-userpage": "Потребителска страница",
+	"realme-desc": "Позволява проверка на URL адреси, използвани на потребителски страници.",
+	"realme-preference-desc": "URL адреси към външни профили:",
+	"realme-preference-error-invalid": "<code>$1</code> не е валиден URL адрес.",
+	"realme-preference-error-not-http": "URL <code>$1</code> трябва да използва или <code>http://</code> или <code>https://</code> като протокол вместо <code>$2</code>.",
+	"realme-preference-error-too-many": "Можете да посочите само {{PLURAL:$1|един URL|$1 URL-a}}.",
+	"realme-preference-help": "Моля, добавете по един URL на ред. Когато тези URL адреси се използват на Вашата потребителска страница, съответстващите <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element HTML тагове] ще бъдат добавени към страницата, което някои платформи (напр. Mastodon) използват за отбелязване връзките към профилите като потвърдени. За повече информация вижте [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe помощната страница] на MediaWiki.org.",
+	"realme-config-error-canonical": "Заглавията на страниците трябва да бъдат посочени в тяхната канонична форма, използвайте <code>$1</code> вместо <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> не е валидно заглавие на страница."
+}
