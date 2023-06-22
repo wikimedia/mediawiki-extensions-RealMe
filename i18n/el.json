@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Spyridon Eftychios Kokotos"
+		]
+	},
+	"realme-config-error-canonical": "Οι τίτλοι των σελίδων πρέπει να καθορίζονται στην κανονική τους μορφή. Χρησιμοποιήστε το <code>$1</code> αντί για το <code>$2</code>.",
+	"realme-config-error-invalidtitle": "Το <code>$1</code> δεν είναι ένας έγκυρος τίτλος σελίδας."
+}
