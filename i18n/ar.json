@@ -12,7 +12,7 @@
 	"realme-preference-error-invalid": "<code>$1</code> ليس عنوان URL صالحًا.",
 	"realme-preference-error-not-http": "يجب أن يستخدم عنوان URL <code>$1</code> إما <code>http://</code> أو <code>https://</code> كبروتوكول بدلاً من <code>$2</code> .",
 	"realme-preference-error-too-many": "يمكنك فقط تحديد {{PLURAL:$1| URL واحد | عناوين URL $1 }}.",
-	"realme-preference-help": "الرجاء إضافة عنوان URL واحد في كل سطر. عند استخدام عناوين URL هذه في صفحة المستخدم الخاصة بك ، ستتم إضافة <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element علامات HTML] إلى الصفحة ، والتي ستتم إضافة بعض الأنظمة الأساسية (على سبيل المثال ، Mastodon) لتمييز روابط الملف الشخصي على أنها تم التحقق منها.",
+	"realme-preference-help": "الرجاء إضافة عنوان URL واحد في كل سطر. عند استخدام عناوين URL هذه في صفحة المستخدم الخاصة بك ، ستتم إضافة <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element علامات HTML] إلى الصفحة ، والتي ستتم إضافة بعض الأنظمة الأساسية (على سبيل المثال ، Mastodon) لتمييز روابط الملف الشخصي على أنها تم التحقق منها.",
 	"realme-config-error-canonical": "يجب تحديد عناوين الصفحات في شكلها الأساسي ، استخدام <code>$1</code> بدلاً من <code>$2</code>.",
 	"realme-config-error-invalidtitle": "<code>$1</code> ليس عنوان صفحة صالحًا."
 }
