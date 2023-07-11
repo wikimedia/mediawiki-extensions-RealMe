@@ -10,5 +10,5 @@
 	"realme-preference-error-invalid": "Nid yw <code>$1</code> yn URL dilys.",
 	"realme-preference-error-not-http": "Rhaid i URL <code>$1</code> ddefnyddio naill ai <code>http://</code> neu <code>https://</code> fel y protocol yn lle <code>$2</code>.",
 	"realme-preference-error-too-many": "Gallwch bennu hyd at {{PLURAL:$1|un URL|$1 URL}}.",
-	"realme-preference-help": "Ychwanegwch un URL i bob llinell. Pan ddefnyddir yr URLs hyn ar eich tudalen defnyddiwr, bydd <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element tagiau HTML] yn cael eu hychwanegu at y dudalen, y mae rhai platfformau (fel Mastodon) i farcio dolenni proffil fel rhai wedi'u dilysu."
+	"realme-preference-help": "Rhowch un URL ar bob llinell. Pan ddefnyddir yr URLs hyn ar eich tudalen defnyddiwr, bydd <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element tagiau HTML] yn cael eu hychwanegu at y dudalen, ac mae rhai platfformau (fel Mastodon) yn defnyddio hynny i farcio dolenni proffil fel rhai wedi'u dilysu. Gweler y [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe dudalen gymorth] ar MediaWiki.org am fwy o wybodaeth."
 }
