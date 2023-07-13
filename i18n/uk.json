@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Base"
+		]
+	},
+	"prefs-userpage": "Сторінка користувача",
+	"realme-desc": "Дозволяє верифікувати URL, що використовуються на сторінках користувачів.",
+	"realme-preference-desc": "URL зовнішніх профілів:",
+	"realme-preference-error-invalid": "<code>$1</code> не є валідним URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> повинен використовувтаи <code>http://</code> або <code>https://</code> як протокол, а не <code>$2</code>.",
+	"realme-preference-error-too-many": "Ви можете вказати лише {{PLURAL:$1|$1 URL|1=один $1 URL}}.",
+	"realme-preference-help": "Будь ласка, додавайте один URL на рядок. Якщо ці URL використовуються на Вашій сторінці користувача, відповідний <code>&lt;link rel=\"me\"&gt;</code> [https://uk.wikipedia.org/wiki/Елементи_HTML HTML-теґ] буде додано до сторінки, який деякі платформи (як то Mastodon) використовують для позначення посилань на профілі як верифіковані. Щоб отримати більше інформації, див. [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe сторінку довідки] на MediaWiki.org.",
+	"realme-config-error-canonical": "Назви сторінок повинні бути вказані в їх канонічній формі, використовуйте <code>$1</code> замість <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> не є валідною назвою сторінки."
+}

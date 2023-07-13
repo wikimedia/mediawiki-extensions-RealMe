@@ -4,5 +4,13 @@
 			"Jon Harald Søby"
 		]
 	},
-	"prefs-userpage": "Brukerside"
+	"prefs-userpage": "Brukerside",
+	"realme-desc": "Gjør det mulig å verifisere URL-er som brukes på brukersider.",
+	"realme-preference-desc": "URL-er til eksterne profiler:",
+	"realme-preference-error-invalid": "<code>$1</code> er ikke en gyldig URL.",
+	"realme-preference-error-not-http": "URL-en <code>$1</code> må bruke enten <code>http://</code> eller <code>https://</code> som protokoll i stedet for <code>$2</code>.",
+	"realme-preference-error-too-many": "Du kan bare angi {{PLURAL:$1|én URL|$1 URL-er}}.",
+	"realme-preference-help": "Legg til én URL per linje. Når disse URL-ene brukes på brukersiden din vil matchende HTML-elementer med <code>&lt;link rel=\"me\"&gt;</code> legges til på siden. Disse brukes av enkelte plattformer (f.eks. Mastodon) for å markere profillenker som verifiserte. Se [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe hjelpesiden på MediaWiki.org] for mer informasjon.",
+	"realme-config-error-canonical": "Sidetitler må angis i kanonisk form; bruk <code>$1</code> i stedet for <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> er ikke en gyldig sidetittel."
 }
