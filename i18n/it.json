@@ -1,9 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Valepert"
 		]
 	},
 	"prefs-userpage": "Pagina utente",
-	"realme-preference-error-invalid": "<code>$1</code> non è un URL valido."
+	"realme-desc": "Permette di confermare gli URL utilizzati nelle pagine utenti.",
+	"realme-preference-desc": "URL dei profili esterni:",
+	"realme-preference-error-invalid": "<code>$1</code> non è un URL valido.",
+	"realme-preference-error-not-http": "Il protocollo dell'URL <code>$1</code> deve essere <code>http://</code> o <code>https://</code> invece che <code>$2</code>.",
+	"realme-preference-error-too-many": "È possibile specificare solamente {{PLURAL:$1|un URL|$1 URL}}.",
+	"realme-preference-help": "Aggiungi un URL per riga. Quando questi URL vengono utilizzati nella pagina utente, verrà inserito in corrispondenza l'[https://it.wikipedia.org/wiki/Elemento_HTML elemento HTML] <code>&lt;link rel=\"me\"&gt;</code>, che alcune piattaforme (ad esempio Mastodon) utilizzano per indicare il profilo come verificato. Per maggiori informazioni consulta la [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe pagina di aiuto] su MediaWiki.org.",
+	"realme-config-error-canonical": "I titoli delle pagine devono essere specificati nella loro forma canonica, utilizza <code>$1</code> invece che <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> non è un titolo di pagina valido."
 }
