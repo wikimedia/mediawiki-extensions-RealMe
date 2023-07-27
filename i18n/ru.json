@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Smigles"
+		]
+	},
+	"prefs-userpage": "Страница участника",
+	"realme-desc": "Позволяет верифицировать URL-адреса, используемые на страницах участников.",
+	"realme-preference-desc": "URL-адреса внешних профилей:",
+	"realme-preference-error-invalid": "<code>$1</code> не является корректным URL-адресом.",
+	"realme-preference-error-not-http": "URL-адрес <code>$1</code> должен использовать <code>http://</code> или <code>https://</code> в качестве протокола вместо <code>$2</code>.",
+	"realme-preference-error-too-many": "Вы можете указать только $1 URL-{{PLURAL:$1|адрес|адреса|адресов}}.",
+	"realme-preference-help": "Добавьте по одному URL-адресу на строку. Когда эти URL-адреса используются на вашей странице участника, на неё будут добавлены соответствующие [https://ru.wikipedia.org/wiki/Элементы_HTML HTML-теги] <code>&lt;link rel=\"me\"&gt;</code>, которые некоторые платформы (например, Mastodon) используют для пометки ссылок в профиле как верифицированных. За дополнительной информацией обратитесь к [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe справочной странице] на MediaWiki.org.",
+	"realme-config-error-canonical": "Заголовки страниц должны быть заданы в канонической форме, используйте <code>$1</code> вместо <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> не является корректным заголовком страницы."
+}
