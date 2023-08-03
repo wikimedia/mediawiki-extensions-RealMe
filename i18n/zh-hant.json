@@ -14,5 +14,7 @@
 	"realme-preference-error-invalid": "<code>$1</code>不是有效的網址。",
 	"realme-preference-error-not-http": "網址<code>$1</code>必須使用<code>http://</code>或<code>https://</code>協議而非<code>$2</code>。",
 	"realme-preference-error-too-many": "您只能指定{{PLURAL:$1|$1個網址}}。",
-	"realme-preference-help": "每行填寫一個網址。當填入的網址用於您的使用者頁面上時，相應的<code>&lt;link rel=\"me\"&gt;</code>[https://zh.wikipedia.org/wiki/HTML元素 HTML標籤]將會加入頁面，部分平台（例如Mastodon）會將其用於驗證個人資料連結。參見MediaWiki.org上的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe 說明頁面]。"
+	"realme-preference-help": "每行填寫一個網址。當填入的網址用於您的使用者頁面上時，相應的<code>&lt;link rel=\"me\"&gt;</code>[https://zh.wikipedia.org/wiki/HTML元素 HTML標籤]將會加入頁面，部分平台（例如Mastodon）會將其用於驗證個人資料連結。參見MediaWiki.org上的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe 說明頁面]。",
+	"realme-config-error-canonical": "頁面標題必須以其規範形式指定，請使用<code>$1</code>；而不是<code>$2</code>。",
+	"realme-config-error-invalidtitle": "<code>$1</code>不是有效的頁面標題。"
 }
