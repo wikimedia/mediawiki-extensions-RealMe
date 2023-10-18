@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Msz2001"
+			"Msz2001",
+			"Rail"
 		]
 	},
 	"prefs-userpage": "Strona użytkownika",
@@ -10,5 +11,7 @@
 	"realme-preference-error-invalid": "<code>$1</code> nie jest prawidłowym adresem URL.",
 	"realme-preference-error-not-http": "Adres URL <code>$1</code> musi używać protokołu <code>http://</code> lub <code>https://</code> zamiast <code>$2</code>.",
 	"realme-preference-error-too-many": "Możesz podać {{PLURAL:$1|tylko jeden adres URL|maksymalnie $1 adresy URL|maksymalnie $1 adresów URL}}.",
-	"realme-preference-help": "Umieść po jednym adresie URL w każdym wierszu. Gdy te adresy URL są używane na Twojej stronie użytkownika, pasujące znaczniki HTML <code>&lt;link rel=\"me\"&gt;</code> zostaną dodane do strony. Niektóre platformy (np. Mastodon) odczytują to jako oznaczenie danych linków jako zweryfikowanych odnośników do profili. Aby uzyskać więcej informacji, zobacz [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stronę pomocy] na MediaWiki.org."
+	"realme-preference-help": "Umieść po jednym adresie URL w każdym wierszu. Gdy te adresy URL są używane na Twojej stronie użytkownika, pasujące znaczniki HTML <code>&lt;link rel=\"me\"&gt;</code> zostaną dodane do strony. Niektóre platformy (np. Mastodon) odczytują to jako oznaczenie danych linków jako zweryfikowanych odnośników do profili. Aby uzyskać więcej informacji, zobacz [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stronę pomocy] na MediaWiki.org.",
+	"realme-config-error-canonical": "Tytuły stron muszą zostać podane w swojej kanonicznej formie, użyj <code>$1</code> zamiast <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> nie jest prawidłowym tytułem strony."
 }
