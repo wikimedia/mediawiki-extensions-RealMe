@@ -1,11 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nguyenphutrong2"
+			"Nguyenphutrong2",
+			"Vinhtantran"
 		]
 	},
-	"prefs-userpage": "trang người dùng",
-	"realme-desc": "Cho phép xác minh các URL được sử dụng trên các trang của người dùng.",
-	"realme-preference-desc": "URL hồ sơ để xác minh:",
-	"realme-preference-help": "Vui lòng thêm một URL trên mỗi dòng. Khi các URL này được sử dụng trên trang thành viên của bạn, <code><meta rel=\"me\"></code> [https://vi.wikipedia.org/wiki/HTML_element thẻ HTML] phù hợp sẽ được thêm vào trang."
+	"prefs-userpage": "Trang cá nhân",
+	"realme-desc": "Cho phép xác minh URL được sử dụng trên trang cá nhân.",
+	"realme-preference-desc": "URL tới hồ sơ bên ngoài:",
+	"realme-preference-error-invalid": "<code>$1</code> không phải là một URL hợp lệ.",
+	"realme-preference-error-not-http": "URL <code>$1</code> phải sử dụng <code>http://</code> hoặc <code>https://</code> làm giao thức thay vì <code>$2</code> .",
+	"realme-preference-error-too-many": "Bạn chỉ có thể chỉ định {{PLURAL:$1|một URL|$1 URL}}.",
+	"realme-preference-help": "Vui lòng thêm một URL trên mỗi dòng. Khi các URL này được sử dụng trên trang cá nhân của bạn, <code>&lt;link rel=\"me\"&gt;</code> [https://vi.wikipedia.org/wiki/Phần_tử_HTML thẻ HTML] phù hợp sẽ được thêm vào trang mà một số nền tảng (ví dụ: Mastodon) sử dụng để đánh dấu liên kết hồ sơ là đã được xác minh. Để biết thêm thông tin, xem [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe trang trợ giúp] trên MediaWiki.org.",
+	"realme-config-error-canonical": "Tiêu đề trang phải được chỉ định ở dạng chuẩn, sử dụng <code>$1</code> thay vì <code>$2</code> .",
+	"realme-config-error-invalidtitle": "<code>$1</code> không phải là tiêu đề trang hợp lệ."
 }
