@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"MrSchipunov"
+			"MrSchipunov",
+			"Rapsar"
 		]
 	},
-	"realme-preference-desc": "Harici profillere URL'ler:"
+	"realme-preference-desc": "Harici profillere URL'ler:",
+	"realme-preference-help": "Lütfen satır başına bir URL ekleyin. Bu URL'ler kullanıcı sayfanızda kullanıldığında, eşleşen <code>&lt;link rel=\"me\"&gt;</code> [https://tr.wikipedia.org/wiki/HTML_element HTML etiketleri] de sayfaya eklenecek ve bunlar, bazı platformlar (Mastodon gibi) tarafından profil bağlantılarını doğrulanmış olarak işaretleme amacıyla kullanılacaktır. Daha fazla bilgi için MediaWiki.org'daki [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe yardım sayfasına] bakınız."
 }
