@@ -6,5 +6,6 @@
 	},
 	"prefs-userpage": "Pagina de usuário",
 	"realme-desc": "Permite verificar os URL usados nas páginas de usuário.",
+	"realme-preference-desc": "URLs para perfis externos:",
 	"realme-preference-help": "Adicione um URL por linha, por favor. Quando estes URL forem usados na sua página de utilizador, serão adicionadas à página <[https://en.wikipedia.org/wiki/HTML_element etiquetas HTML] <code>&lt;meta rel=\"me\"&gt;</code> correspondentes."
 }
