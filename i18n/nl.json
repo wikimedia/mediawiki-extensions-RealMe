@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"prefs-userpage": "Gebruikerspagina",
+	"realme-desc": "Hiermee kunnen op gebruikerspagina’s gebruikte URL’s worden geverifieerd.",
+	"realme-preference-desc": "URL’s naar externe profielen:",
+	"realme-preference-error-invalid": "<code>$1</code> is geen geldige URL.",
+	"realme-preference-error-not-http": "De URL <code>$1</code> moet <code>http://</code> of <code>https://</code> als protocol gebruiken in plaats van <code>$2</code>.",
+	"realme-preference-error-too-many": "U kunt maar {{PLURAL:$1|één URL|$1 URL’s}} opgeven.",
+	"realme-preference-help": "Voeg één URL per regel toe. Wanneer deze URL’s op uw gebruikerspagina worden gebruikt, worden overeenkomende <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-tags] aan de pagina toegevoegd. Sommige platforms (bijvoorbeeld Mastodon) gebruiken deze om profielkoppelingen als geverifieerd te markeren. Voor meer informatie bekijkt u de [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe hulppagina] op MediaWiki.org.",
+	"realme-config-error-canonical": "Paginatitels moeten worden opgegeven in hun canonieke vorm. Gebruik <code>$1</code> in plaats van <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> is geen geldige paginatitel."
+}
