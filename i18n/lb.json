@@ -6,6 +6,12 @@
 		]
 	},
 	"prefs-userpage": "Benotzersäit",
+	"realme-desc": "Erméiglecht d'Nokucke vun URLen déi op Benotzer Säite benotzt ginn.",
+	"realme-preference-desc": "URLen op extern Profiller:",
+	"realme-preference-error-invalid": "<code>$1</code> ass keng valabel URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> muss entweder <code>http://</code> oder <code>https://</code> als Protokoll benotzen an net <code>$2</code> .",
+	"realme-preference-error-too-many": "Dir kënnt nëmmen {{PLURAL:$1|eng URL|$1 URLe}} spezifizéieren.",
+	"realme-preference-help": "Setzt wgl. eng URL pro Zeil derbäi. Wann dës URLen op Ärer Benotzer Säit benotzt ginn, gi passend  <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML Tags] op d'Säit derbäigesat, déi verschidde Plattformen (zum Beispill, Mastodon) benotze fir Profillinks als verifizéiert ze markéieren. Fir méi Informatiounen, kuckt dës [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe Hëllef-Säit] op MediaWiki.org.",
 	"realme-config-error-canonical": "Säitentitele mussen an hirer kanonescher Form ugi ginn, benotzt <code>$1</code> amplaz <code>$2</code>.",
 	"realme-config-error-invalidtitle": "<code>$1</code> ass kee gültege Säitentitel."
 }
