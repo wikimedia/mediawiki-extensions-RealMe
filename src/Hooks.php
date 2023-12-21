@@ -137,7 +137,7 @@ class Hooks implements
 			'rows'          => min( 5, $this->options->get( 'RealMeUserPageUrlLimit' ) ),
 
 			'validation-callback' => function ( $optionValue, $allData, HTMLForm $form ) {
-				$urls = explode( PHP_EOL, $optionValue ?? '' );
+				$urls = explode( "\n", $optionValue ?? '' );
 
 				$errors = [];
 				$count = 0;
@@ -191,7 +191,7 @@ class Hooks implements
 		}
 
 		$option = $this->userOptionsLookup->getOption( $user, Constants::PREFERENCE_NAME, "" );
-		$allowedUrls = explode( PHP_EOL, $option );
+		$allowedUrls = explode( "\n", $option );
 
 		return array_intersect( $linksPresent, $allowedUrls );
 	}
