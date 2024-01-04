@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Njardarlogar"
+		]
+	},
+	"prefs-userpage": "Brukarside",
+	"realme-preference-desc": "Lenkjer til eksterne profilar:",
+	"realme-preference-error-invalid": "<code>$1</code> er ikkje ein gyldig URL.",
+	"realme-preference-help": "Legg til éin URL per line. Når desse URL-ane vert brukte på brukarsida di, vert matchande <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-merke] lagde til på sida, som nokre plattformer (til dømes Mastodon) bruker til å markera profillenkjer som verifiserte. For meir informasjon, sjå [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe hjelpesida] på MediaWiki.org."
+}
