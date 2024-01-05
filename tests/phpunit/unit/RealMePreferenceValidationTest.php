@@ -18,10 +18,12 @@
  * @file
  */
 
+use MediaWiki\Config\HashConfig;
 use MediaWiki\Extension\RealMe\Constants;
 use MediaWiki\Extension\RealMe\Hooks;
 use MediaWiki\Tests\Unit\FakeQqxMessageLocalizer;
 use MediaWiki\User\Options\UserOptionsLookup;
+use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\Utils\UrlUtils;
 

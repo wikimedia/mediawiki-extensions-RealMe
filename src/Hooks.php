@@ -19,24 +19,24 @@
 
 namespace MediaWiki\Extension\RealMe;
 
-use Config;
 use Content;
 use FormatJson;
 use HTMLForm;
 use IContextSource;
 use JsonContent;
+use MediaWiki\Config\Config;
 use MediaWiki\Config\ServiceOptions;
 use MediaWiki\Hook\BeforePageDisplayHook;
 use MediaWiki\Hook\EditFilterMergedContentHook;
 use MediaWiki\Hook\OutputPageParserOutputHook;
+use MediaWiki\Parser\ParserOutput;
 use MediaWiki\Preferences\Hook\GetPreferencesHook;
+use MediaWiki\Status\Status;
 use MediaWiki\Title\Title;
 use MediaWiki\User\Options\UserOptionsLookup;
+use MediaWiki\User\User;
 use MediaWiki\User\UserFactory;
 use MediaWiki\Utils\UrlUtils;
-use ParserOutput;
-use Status;
-use User;
 
 class Hooks implements
 	BeforePageDisplayHook,
