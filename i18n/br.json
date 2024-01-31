@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Huñvreüs"
+		]
+	},
+	"prefs-userpage": "Pajenn implijer",
+	"realme-preference-desc": "URLioù war-du profiloù diavaezː",
+	"realme-preference-help": "Lakait un URL e pep linenn mar plij. Pa vez implijet an URLoù-mañ en ho pajenn implijer e vo ouzhpennet <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element balizennoù HTML] a glot d’ar bajenn, implijet gant savennoù zo (Mastodon, da skouer) evit merkañ liammoù profiloù evel gwiriet. Muioc’h a ditouroù a vo kavet er [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe bajenn skoazell] war MediaWiki.org."
+}
