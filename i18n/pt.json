@@ -6,6 +6,11 @@
 	},
 	"prefs-userpage": "Página de utilizador",
 	"realme-desc": "Permite verificar os URL usados nas páginas de utilizador.",
-	"realme-preference-desc": "Os URL de perfil a verificar:",
-	"realme-preference-help": "Adicione um URL por linha, por favor. Quando estes URL forem usados na sua página de utilizador, serão adicionadas à página <[https://en.wikipedia.org/wiki/HTML_element etiquetas HTML] <code>&lt;meta rel=\"me\"&gt;</code> correspondentes."
+	"realme-preference-desc": "URL para perfis externos:",
+	"realme-preference-error-invalid": "<code>$1</code> não é um URL válido.",
+	"realme-preference-error-not-http": "O URL <code>$1</code> tem de usar como protocolo <code>http://</code> ou <code>https://</code> em vez de <code>$2</code>.",
+	"realme-preference-error-too-many": "Só pode especificar {{PLURAL:$1|um|$1}} URL.",
+	"realme-preference-help": "Adicione um URL por linha, por favor. Quando estes URL forem usados na sua página de utilizador, serão adicionadas à página [https://pt.wikipedia.org/wiki/Elemento_HTML etiquetas HTML] <code>&lt;link rel=\"me\"&gt;</code> correspondentes, que algumas plataformas (por exemplo, Mastodon) usam para marcar hiperligações de perfis como verificadas. Para mais informações, consulte a [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe página de ajuda] em MediaWiki.org.",
+	"realme-config-error-canonical": "Os títulos de páginas têm de ser especificados na sua forma canónica, usando <code>$1</code> em vez de <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> não é um título de página válido."
 }
