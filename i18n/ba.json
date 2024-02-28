@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bashkorttan"
+		]
+	},
+	"prefs-userpage": "Ҡатнашыусы бите",
+	"realme-desc": "Ҡатнашыусы биттәрендә ҡулланылған URL адрестарҙы дөрөҫләргә мөмкинлек бирә.",
+	"realme-preference-desc": "Тышҡы профилдәрҙең URL-адрестары:",
+	"realme-preference-error-invalid": "<code>$1</code> яраҡлы URL-адрес түгел.",
+	"realme-preference-error-not-http": "<code>$1</code> URL-адресы <code>$2</code> урынына <code>http://</code> йәки <code>https://</code> протоколын ҡулланырға тейеш.",
+	"realme-preference-error-too-many": "{{PLURAL:$1|Бер URL-адрес|$1 URL-адрес}} ҡына күрһәтә алаһығыҙ.",
+	"realme-preference-help": "Бер юлға бер URL-адрес өҫтәгеҙ. Был URL-адрестар ҡатнашыусы битегеҙҙә ҡулланылған ваҡытта тап килеүсе, ҡайһы бер платформалар (мәҫәлән, Mastodon) профиль һылтанмаларын раҫланған тип билдәләү өсөн ҡулланған<code>&lt;link rel=\"me\"&gt;</code>  [https://en.wikipedia.org/wiki/HTML_element HTML-тегдар] биткә өҫтәләсәк. Тулыраҡ мәғлүмәт өсөн MediaWiki.org сайтындағы [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe ярҙам битен] ҡарағыҙ.",
+	"realme-config-error-canonical": "Биттәрҙең атамалары уларҙың ғәҙәти формаһында билдәләнергә, <code>$2</code> урынына <code>$1</code> ҡулланылырға тейеш.",
+	"realme-config-error-invalidtitle": "<code>$1</code> яраҡлы бит атамаһы түгел."
+}
