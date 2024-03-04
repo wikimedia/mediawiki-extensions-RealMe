@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hakimi97"
+		]
+	},
+	"prefs-userpage": "Laman pengguna",
+	"realme-desc": "Membenarkan pengesahan URL yang digunakan pada laman pengguna.",
+	"realme-preference-desc": "Pautan-pautan ke profil luaran:",
+	"realme-preference-error-invalid": "<code>$1</code> bukan pautan yang sah.",
+	"realme-preference-error-not-http": "Pautan <code>$1</code> mesti menggunakan sama ada <code>http://</code> atau <code>https://</code> sebagai protokol dan bukannya <code>$2</code> .",
+	"realme-preference-error-too-many": "Anda hanya boleh menentukan {{PLURAL:$1| satu URL| $1 URL}}.",
+	"realme-preference-help": "Sila tambah satu pautan sahaja pada setiap baris. Apabila pautan ini digunakan pada laman pengguna anda, padanan <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element tag HTML] akan ditambahkan pada laman tersebut, yang digunakan oleh sesetengah platform (contoh seperti: Mastodon) untuk menandakan pautan profil untuk pengesahan. Untuk maklumat lanjut, lihat [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe laman bantuan] di MediaWiki.org.",
+	"realme-config-error-canonical": "Tajuk halaman mesti dinyatakan dalam bentuk lazimnya, gunakan <code>$1</code> dan bukannya <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> bukan pautan yang sah."
+}
