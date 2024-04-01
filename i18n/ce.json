@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"prefs-userpage": "Декъашхочун агӀо",
+	"realme-preference-desc": "Арахьарчу профилийн URL-адресаш:",
+	"realme-preference-error-invalid": "<code>$1</code> нийса йоцу URL-адрес ду.",
+	"realme-preference-error-too-many": "Ахьа $1 URL-{{PLURAL:$1|адрес}} бен билгалдан ца мега.",
+	"realme-config-error-invalidtitle": "<code>$1</code> агӀонан нийса йоцу цӀе йу."
+}
