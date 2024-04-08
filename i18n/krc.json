@@ -6,6 +6,6 @@
 	},
 	"prefs-userpage": "Хайырланыучуну бети",
 	"realme-desc": "Хайырланыучуланы бетлеринде URL-адреслени верификация этерге амал береди.",
-	"realme-preference-desc": "Верификация ючюн профильни URL-адреслери:",
-	"realme-preference-help": "Хар сатыргъа биришер URL-адрес къош. Сизни хайырланыучу бетигизде бу URL-адресле хайырлансала, келишген HTML-тегле <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element] бетге къошуллукъдула."
+	"realme-preference-desc": "Тыш профиллени URL-адреслери:",
+	"realme-preference-help": "Тилейбиз, хар тизгиннге бир URL-адрес къошугъуз. Бу URL-адреслени, хайырланыучу бетигизде хайырлансагъыз, келишге <code>&lt;link rel=\"me\"&gt;</code> [https://krc.wikipedia.org/wiki/HTML_element HTML тегле] да бетге къошуллукъдула эмда была, бир къауум платформалада (Mastodon кибик) профиль джибериулени верификация этилген профиль амаллы хайырланыллыкъдыла. Андан аслам билги ючюн MediaWiki.org сайтдагъы [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe болушлукъ бетге] къарагъыз."
 }
