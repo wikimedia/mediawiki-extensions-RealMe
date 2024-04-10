@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mehtab ahmed"
+		]
+	},
+	"prefs-userpage": "واپرائيندڙ جو صفحو",
+	"realme-desc": "واپرائيندڙن جي صفحن تي استعمال ٿيل يوآرايلن جي تصديق ڪرڻ جي اجازت ڏئي ٿو.",
+	"realme-preference-desc": "ٻاھريل پروفائيلن ڏانھن يوآرايلون:",
+	"realme-preference-error-invalid": "<code>$1</code> درست يوآرايل ناھي.",
+	"realme-preference-error-not-http": "يوآرايل <code>$1</code> لازمي طور <code>http://</code> يا <code>https://</code> بطور پروٽوڪول ڪندي ھجي نہ ڪي <code>$2</code>.",
+	"realme-preference-error-too-many": "توھان رڳو {{PLURAL:$1|ھڪ يوآرايل|$1 يوآرايلون}} ڄاڻائي سگهو ٿا.",
+	"realme-preference-help": "مھرباني ڪري ھڪ سِٽَ تي رڳو ھڪ يوارايل شامل ڪريو. جڏهن اهي يوآرايلون توهان جي واپرائيندڙ صفحي تي استعمال ڪيون وينديون، <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element HTML ٽيگ] سان ملندڙ صفحي تي شامل ڪيا ويندا، جيڪي ڪجهہ پليٽفارمن (مثال طور، Mastodon) استعمال ڪن ٿا پروفائل ڳنڍڻي کي نشان لڳائڻ لاءِ بطور جيئن تصديق ٿيل. وڌيڪ معلومات لاءِ، ڏسو [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe مدد صفحو] MediaWiki.org تي.",
+	"realme-config-error-canonical": "صفحي جا عنوان لازمي طور تي بيان ڪيا وڃن انھن جي معياري شڪل ۾، استعمال ڪريو <code>$1</code> بجاءِ <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> صفحي جو درست عنوان ناھي."
+}
