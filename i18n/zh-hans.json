@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Lakejason0",
-			"XtexChooser"
+			"XtexChooser",
+			"沈澄心"
 		]
 	},
 	"prefs-userpage": "用户页",
@@ -11,5 +12,7 @@
 	"realme-preference-error-invalid": "<code>$1</code>不是有效的网址。",
 	"realme-preference-error-not-http": "网址<code>$1</code>必须使用<code>http://</code>或<code>https://</code>协议而非<code>$2</code>。",
 	"realme-preference-error-too-many": "您只能指定{{PLURAL:$1|$1个网址}}。",
-	"realme-preference-help": "每行添加一个网址。当填入的网址用于您的用户页上时，相应的<code>&lt;link rel=\"me\"&gt;</code>[https://zh.wikipedia.org/wiki/HTML元素 HTML标签]将会添加到页面上，部分平台（例如Mastodon）会将其用于验证个人资料链接。参见MediaWiki.org上的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe 帮助页面]。"
+	"realme-preference-help": "每行添加一个网址。当填入的网址用于您的用户页上时，相应的<code>&lt;link rel=\"me\"&gt;</code>[https://zh.wikipedia.org/wiki/HTML元素 HTML标签]将会添加到页面上，部分平台（例如Mastodon）会将其用于验证个人资料链接。参见MediaWiki.org上的[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe 帮助页面]。",
+	"realme-config-error-canonical": "页面标题必须以其规范形式指定，使用<code>$1</code>而不是<code>$2</code>。",
+	"realme-config-error-invalidtitle": "<code>$1</code>不是有效的页面标题。"
 }
