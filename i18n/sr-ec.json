@@ -9,5 +9,5 @@
 	"realme-desc": "Омогућава верификовање веза који се користе на корисничким страницама.",
 	"realme-preference-desc": "URL-ови ка спољним профилима:",
 	"realme-preference-error-invalid": "<code>$1</code> није важећи URL.",
-	"realme-preference-help": "Молимо вас да додате једну везу по линији. Када се ове везе користе на вашој корисничкој страници, подударајуће <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML ознаке] ће бити додате страници."
+	"realme-preference-help": "Молимо Вас да додате једну везу по линији. Када се ове везе користе на вашој корисничкој страници, подударајуће <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML ознаке] ће бити додате страници. Које неке платформе (нпр. Mastodon) користе да означе профилне везе као верификоване. За више информација видети [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe страницу помоћи] на MediaWiki.org"
 }
