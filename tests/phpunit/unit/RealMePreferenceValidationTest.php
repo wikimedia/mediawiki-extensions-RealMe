@@ -21,6 +21,7 @@
 use MediaWiki\Config\HashConfig;
 use MediaWiki\Extension\RealMe\Constants;
 use MediaWiki\Extension\RealMe\Hooks;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Tests\Unit\FakeQqxMessageLocalizer;
 use MediaWiki\User\Options\UserOptionsLookup;
 use MediaWiki\User\User;
