@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ezagren"
+		]
+	},
+	"prefs-userpage": "Laman pamakai",
+	"realme-preference-desc": "URL ka profil eksternal:",
+	"realme-preference-help": "Harap tambahakan satu URL par baris. Wayah URL ini dipakai ka laman pamakai Pian, <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element tag HTML] pacangan ditambahakan ka laman, nang dipakai babarapa platform (misalnya, Mastodon) gasan manandai tautan profil sabagai taverifikasi. Gasan maklumat labih lanjut, janaki [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe laman patulung] di MediaWiki.org."
+}
