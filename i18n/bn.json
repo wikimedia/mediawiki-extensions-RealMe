@@ -6,5 +6,7 @@
 	},
 	"prefs-userpage": "ব্যবহারকারী পাতা",
 	"realme-preference-desc": "বাহ্যিক প্রোফাইলের ইউআরএল:",
-	"realme-preference-error-invalid": "<code>$1</code> বৈধ ইউআরএল নয়।"
+	"realme-preference-error-invalid": "<code>$1</code> বৈধ ইউআরএল নয়।",
+	"realme-preference-help": "দয়া করে লাইন প্রতি একটি ইউআরএল যোগ করুন। যখন এই ইউআরএলগুলি আপনার ব্যবহারকারীর পাতায় ব্যবহার করা হবে, তখন [https://bn.wikipedia.org/wiki/এইচটিএমএল_উপাদান এইচটিএমএল ট্যাগ] <code>&lt;link rel=\"me\"&gt;</code> ঐ পাতায় যোগ করা হবে। কিছু প্ল্যাটফর্ম (উদাহরণস্বরূপ, মাস্টোডন) প্রোফাইল লিঙ্ককে যাচাইকৃত হিসাবে চিহ্নিত করতে এইগুলি ব্যবহার করে। আরও তথ্যের জন্য, মিডিয়াউইকি.অর্গে [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe সাহায্য পাতা] দেখুন।",
+	"realme-config-error-invalidtitle": "<code>$1</code> কোনও বৈধ পাতার শিরোনাম নয়।"
 }
