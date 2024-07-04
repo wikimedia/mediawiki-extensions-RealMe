@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Samoasambia"
 		]
 	},
-	"prefs-userpage": "Käyttäjäsivu"
+	"prefs-userpage": "Käyttäjäsivu",
+	"realme-preference-desc": "URL:t ulkoisiin profiileihin:",
+	"realme-preference-error-invalid": "<code>$1</code> ei ole kelvollinen URL."
 }
