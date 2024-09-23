@@ -6,6 +6,9 @@
 		]
 	},
 	"prefs-userpage": "Käyttäjäsivu",
-	"realme-preference-desc": "URL:t ulkoisiin profiileihin:",
-	"realme-preference-error-invalid": "<code>$1</code> ei ole kelvollinen URL."
+	"realme-preference-desc": "Ulkoisten profiilien verkko-osoitteet:",
+	"realme-preference-error-invalid": "<code>$1</code> ei ole kelvollinen verkko-osoite.",
+	"realme-preference-error-not-http": "Verkko-osoitteen <code>$1</code> tulee käyttää protokollana joko <code>http://</code> tai <code>https://</code> protokollan <code>$2</code> sijaan.",
+	"realme-preference-error-too-many": "Voit määrittää enintään {{PLURAL:$1|yhden verkko-osoitteen|$1 verkko-osoitetta}}.",
+	"realme-config-error-invalidtitle": "<code>$1</code> ei ole kelvollinen sivuotsikko."
 }
