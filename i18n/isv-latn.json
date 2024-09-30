@@ -9,7 +9,7 @@
 	"realme-preference-desc": "URL-adresy vněšnjih profilov:",
 	"realme-preference-error-invalid": "<code>$1</code> ne jest pravilny URL-adres.",
 	"realme-preference-error-not-http": "URL-adres <code>$1</code> povinen jest upotrěbjati protokol <code>http://</code> ili <code>https://</code> zaměsto <code>$2</code>.",
-	"realme-preference-error-too-many": "Vy možete ukazati samo {{PLURAL:$1|jedin URL-adres|$1 URL-adresov}}.",
+	"realme-preference-error-too-many": "Vy možete ukazati samo {{PLURAL:$1|jedin URL-adres|$1 URL-adresy|$1 URL-adresov}}.",
 	"realme-preference-help": "Prosimo, uměstite po jednom URL-adresu vo vsakom redku. Ako te URL-adresy sut upotrěbjane na vašej koristničskoj stranici, odpovědajuče HTML-tagy <code>&lt;link rel=\"me\"&gt;</code> budut dodane do stranice. Někoje platformy (napr. Mastodon) odčityvajut to kako označenje tyh linkov kako prověrjenyh linkov na profily. Za veče informacij, gledite [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe pomoč] na stranici MediaWiki.org.",
 	"realme-config-error-canonical": "Nazvy stranic trěba ukazati v jihnoj kanoničnoj formě, upotrěbite <code>$1</code> zaměsto <code>$2</code>.",
 	"realme-config-error-invalidtitle": "<code>$1</code> ne jest pravilna nazva stranice."
