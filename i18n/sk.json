@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Luky001"
+		]
+	},
+	"prefs-userpage": "Stránka redaktora",
+	"realme-preference-desc": "Adresy URL na externé profily:",
+	"realme-preference-help": "Vložte jednu adresu URL na riadok. Keď budú tieto adresy URL použité na vašej redaktorskej stránke, bude na stránku vložená zodpovedajúca [https://cs.wikipedia.org/wiki/HTML_prvek HTML značka] <code>&lt;link rel=\"me\"&gt;</code>, ktorú niektoré platformy (napr. Mastodon) používajú pre označenie odkazov z&nbsp;profilu ako overených. Viac informácií nájdete na [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stránke pomocníka] na MediaWiki.org."
+}
