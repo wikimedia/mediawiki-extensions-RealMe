@@ -11,7 +11,7 @@
 	"realme-preference-error-invalid": "<code>$1</code> ei ole kelvollinen verkko-osoite.",
 	"realme-preference-error-not-http": "Verkko-osoitteen <code>$1</code> tulee käyttää protokollana joko <code>http://</code> tai <code>https://</code> protokollan <code>$2</code> sijaan.",
 	"realme-preference-error-too-many": "Voit määrittää enintään {{PLURAL:$1|yhden verkko-osoitteen|$1 verkko-osoitetta}}.",
-	"realme-preference-help": "Lisää yksi verkko-osoite (URL) riviä kohden. Kun näitä verkko-osoitteita käytetään käyttäjäsivullasi, sivulle lisätään vastaava [https://fi.wikipedia.org/wiki/HTML-elementti HTML-elementti] <code>&lt;link rel=\"me\"&gt;</code>, joita jotkin alustat (esim. Mastodon) käyttävät profiililinkkien merkitsemiseen varmennetuiksi. Lisätietoja löytyy [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe ohjesivulta] MediaWiki.orgissa.",
+	"realme-preference-help": "Lisää yksi verkko-osoite (URL) riviä kohden. Kun näitä verkko-osoitteita käytetään käyttäjäsivullasi, sivulle lisätään vastaava [https://fi.wikipedia.org/wiki/HTML-elementti HTML-elementti] <code>&lt;link rel=\"me\"&gt;</code>, joita jotkin alustat (esim. Mastodon) käyttävät profiililinkkien varmennetuiksi merkitsemiseen. Lisätietoja löytyy [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe ohjesivulta] MediaWiki.orgissa.",
 	"realme-config-error-canonical": "Sivuotsikot on määritettävä standardimuodossa, <code>$2</code> sijasta käytä muotoa <code>$1</code>.",
 	"realme-config-error-invalidtitle": "<code>$1</code> ei ole kelvollinen sivuotsikko."
 }
