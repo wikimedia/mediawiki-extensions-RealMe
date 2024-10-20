@@ -19,14 +19,14 @@
 
 namespace MediaWiki\Extension\RealMe;
 
-use Content;
-use FormatJson;
-use JsonContent;
 use MediaWiki\Config\Config;
 use MediaWiki\Config\ServiceOptions;
+use MediaWiki\Content\Content;
+use MediaWiki\Content\JsonContent;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\Hook\EditFilterMergedContentHook;
 use MediaWiki\HTMLForm\HTMLForm;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\Output\Hook\BeforePageDisplayHook;
 use MediaWiki\Output\Hook\OutputPageParserOutputHook;
 use MediaWiki\Parser\ParserOutput;
