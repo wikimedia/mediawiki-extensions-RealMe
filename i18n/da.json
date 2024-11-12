@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Steenth"
+		]
+	},
+	"prefs-userpage": "Brugerside",
+	"realme-desc": "Tillader bekræftelse af URL'er, der bruges på brugersider.",
+	"realme-preference-desc": "URL'er til eksterne profiler:",
+	"realme-preference-error-invalid": "<code>$1</code> er ikke en gyldig URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> skal bruge enten <code>http://</code> eller <code>https://</code> som protokol i stedet for <code>$2</code> .",
+	"realme-preference-error-too-many": "Du må kun angive {{PLURAL:$1|én URL|$1 URL'er}}.",
+	"realme-preference-help": "Tilføj venligst én URL pr. linje. Når disse webadresser bruges på din brugerside, vil matchende <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-tags] blive tilføjet til siden, som nogle platforme (f.eks. Mastodon) bruges til at markere profillinks som bekræftede. For mere information, se [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe hjælpesiden] på MediaWiki.org.",
+	"realme-config-error-canonical": "Sidetitler skal angives i deres kanoniske form, brug <code>$1</code> i stedet for <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> er ikke en gyldig sidetitel."
+}
