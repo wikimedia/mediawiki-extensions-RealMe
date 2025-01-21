@@ -14,7 +14,7 @@
 	"realme-preference-error-invalid": "<code>$1</code> ليس عنوان URL صالحًا.",
 	"realme-preference-error-not-http": "يجب أن يستخدم عنوان URL <code>$1</code> إما <code>http://</code> أو <code>https://</code> كبروتوكول بدلاً من <code>$2</code> .",
 	"realme-preference-error-too-many": "يمكنك فقط تحديد {{PLURAL:$1| URL واحد | عناوين URL $1 }}.",
-	"realme-preference-help": "الرجاء إضافة مسار واحد في كل سطر. عند استخدام هذه المسارات في صفحة المستخدم الخاصة بك، ستُضاف  [https://ar.wikipedia.org/wiki/%D8%B9%D9%86%D8%B5%D8%B1_(%D9%84%D8%BA%D8%A9_%D8%AA%D8%B1%D9%85%D9%8A%D8%B2_%D8%A7%D9%84%D9%86%D8%B5_%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D9%82) وسوم لغة التوصيف (HTML)] التالية إلى الصفحة: <code>&lt;link rel=\"me\"&gt;</code>، تُستخد بعض المنصات، مثل Mastodon، هذه الوسوم لتعليم روابط الملف الشخصي المؤكَّدة، انظر [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe صفخة المساعدة ذات الصلة] في موقع ميدياويكي.",
+	"realme-preference-help": "الرجاء إضافة مسار واحد في كل سطر. عند استخدام هذه المسارات في صفحة المستخدم الخاصة بك، ستُضاف  [https://ar.wikipedia.org/wiki/%D8%B9%D9%86%D8%B5%D8%B1_(%D9%84%D8%BA%D8%A9_%D8%AA%D8%B1%D9%85%D9%8A%D8%B2_%D8%A7%D9%84%D9%86%D8%B5_%D8%A7%D9%84%D9%81%D8%A7%D8%A6%D9%82) وسوم لغة التوصيف (HTML)] التالية إلى الصفحة: <code>&lt;link rel=\"me\"&gt;</code>، تستخدم بعض المنصات، مثل ماستدون، هذه الوسوم لتعليم روابط الملف الشخصي المؤكَّدة، انظر [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe صفحة المساعدة ذات الصلة] في موقع ميدياويكي.",
 	"realme-config-error-canonical": "يجب تحديد عناوين الصفحات في شكلها الأساسي ، استخدام <code>$1</code> بدلاً من <code>$2</code>.",
 	"realme-config-error-invalidtitle": "<code>$1</code> ليس عنوان صفحة صالحًا."
 }
