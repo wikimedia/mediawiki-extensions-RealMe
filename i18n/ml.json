@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Praveenp"
+		]
+	},
+	"prefs-userpage": "ഉപയോക്തൃതാൾ",
+	"realme-desc": "ഉപയോക്തൃതാളുകളിൽ ഉപയോഗിച്ചിട്ടുള്ള യു.ആർ.എല്ലുകളുടെ സാധുത പരിശോധിക്കുന്നു.",
+	"realme-preference-desc": "പുറത്തുള്ള പ്രൊഫൈൽ താളുകളിലോട്ടുള്ള യു.ആർ.എല്ലുകൾ:",
+	"realme-preference-error-invalid": "<code>$1</code> സാധുവായ യു.ആർ.എൽ. അല്ല.",
+	"realme-preference-error-not-http": "code>$1</code> യു.ആർ.എല്ലിൽ <code>$2</code> എന്നതിനു പകരം <code>http://</code> എന്നോ <code>https://</code> എന്നോ പ്രോട്ടോക്കോളായി ഉപയോഗിച്ചിരിക്കണം.",
+	"realme-preference-error-too-many": "You may only specify {{PLURAL:$1|ഒരു യു.ആർ.എൽ.|$1 യൂ.ആർ.എല്ലുകൾ}} മാത്രമേ താങ്കൾക്ക് നൽകാനാവൂ.",
+	"realme-preference-help": "ഒരു വരിയിൽ ഒരു യു.ആർ.എൽ. വീതം ചേർക്കുക. യു.ആർ.എല്ലുകൾ താങ്കളുടെ ഉപയോക്തൃതാളിൽ ചേർക്കുമ്പോൾ, അനുയോജ്യമായ <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element എച്ച്.റ്റി.എം.എൽ. റ്റാഗുകൾ]  താളിൽ ചേർക്കപ്പെടുന്നതാണ്,  ചില ഓൺലൈൻ വേദികളിൽ (ഉദാ: മാസ്റ്റഡോൺ) ഇവ പ്രൈഫൈൽ കണ്ണികൾ സാധൂകരിക്കപ്പെട്ടവയാണെന്ന് അടയാളപ്പെടുത്താൻ ഉപയോഗിക്കും. കൂടുതൽ വിവരങ്ങൾ മീഡിയവിക്കി.ഓർഗിലെ [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe സഹായ താളിൽ] കാണുക.",
+	"realme-config-error-canonical": "താളിന്റെ തലക്കെട്ടുകൾ അവയുടെ കാനോനിക്കൽ രൂപത്തിൽ ആയിരിക്കണം, <code>$1</code> എന്നതിന് പകരം <code>$2</code> എന്നുപയോഗിക്കുക.",
+	"realme-config-error-invalidtitle": "<code>$1</code> സാധുവായ താൾ തലക്കെട്ട് അല്ല."
+}
