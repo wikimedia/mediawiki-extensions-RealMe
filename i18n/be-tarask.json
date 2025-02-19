@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Renessaince"
+		]
+	},
+	"prefs-userpage": "Старонка ўдзельніка",
+	"realme-desc": "Дазваляе праверку URL-аў, выкарыстаных на старонках удзельнікаў.",
+	"realme-preference-desc": "URL-ы вонкавых профіляў:",
+	"realme-preference-error-invalid": "<code>$1</code> — гэта няслушны URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> павінен ужываць пратакол <code>http://</code> альбо <code>https://</code>, а не <code>$2</code>.",
+	"realme-preference-error-too-many": "Вы можаце пазначыць толькі {{PLURAL:$1|адзін URL|$1 URL-ы|$1 URL-аў}}."
+}
