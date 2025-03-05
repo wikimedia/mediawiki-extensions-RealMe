@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chaduvari"
+		]
+	},
+	"realme-preference-help": "పంక్తికి ఒక URL ను చేర్చండి. ఈ URL లను మీ వాడుకరి పేజీలో వాడినపుడు, ఆ పేజీలో వాటికి తగిన <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML ట్యాగులు] చేర్చబడతాయి. కొన్ని ప్లాట్‌ఫారాలు (మాస్టోడాన్ వంటివి) వాటిని గమనించి, ఆ ప్రొఫైలు లింకులను ధ్రువీకరించినట్లు చూపిస్తాయి. మరింత సమాచారం కోసం, MediaWiki.org లోని [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe సహాయం పేజీ] చూడండి."
+}
