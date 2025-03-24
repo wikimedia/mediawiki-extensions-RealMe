@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"MathXplore",
-			"Dragoniez"
+			"Dragoniez",
+			"Shirayuki"
 		]
 	},
 	"prefs-userpage": "利用者ページ",
-	"realme-preference-desc": "外部プロフィールへのURL：",
+	"realme-preference-desc": "外部プロフィールへのURL:",
 	"realme-preference-help": "複数指定する場合は1つのURLごとに改行してください。指定されたURLが自身の利用者ページ上で使用された場合、対応する <code>&lt;link rel=\"me\"&gt;</code> の[https://ja.wikipedia.org/wiki/HTML要素 HTMLタグ]がページに追加されます。このタグは、MastodonなどのSNSプラットフォームにおいて、プロフィールのリンク認証に用いられるものです。詳細はMediaWiki.orgの[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe ヘルプページ]をご覧ください。"
 }
