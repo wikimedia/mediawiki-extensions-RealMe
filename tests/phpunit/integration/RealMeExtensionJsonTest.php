@@ -25,7 +25,7 @@ use MediaWiki\Tests\ExtensionJsonTestBase;
  */
 class RealMeExtensionJsonTest extends ExtensionJsonTestBase {
 	/** @inheritDoc */
-	protected string $extensionJsonPath = __DIR__ . '/../../../extension.json';
+	protected static string $extensionJsonPath = __DIR__ . '/../../../extension.json';
 
 	/** @inheritDoc */
 	protected ?string $serviceNamePrefix = 'RealMe.';
