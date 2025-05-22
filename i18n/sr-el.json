@@ -6,6 +6,7 @@
 	},
 	"prefs-userpage": "Korisnička stranica",
 	"realme-desc": "Omogućava verifikovanje veza koji se koriste na korisničkim stranicama.",
-	"realme-preference-desc": "Veze profila za verifikaciju:",
-	"realme-preference-help": "Molimo vas da dodate jednu vezu po liniji. Kada se ove veze koriste na vašoj korisničkoj stranici, podudarajuće <code>&lt;meta rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML oznake] će biti dodate stranici."
+	"realme-preference-desc": "URL-ovi ka spoljnim profilima:",
+	"realme-preference-error-invalid": "<code>$1</code> nije važeći URL.",
+	"realme-preference-help": "Molimo Vas da dodate jednu vezu po liniji. Kada se ove veze koriste na vašoj korisničkoj stranici, podudarajuće <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML oznake] će biti dodate stranici. Koje neke platforme (npr. Mastodon) koriste da označe profilne veze kao verifikovane. Za više informacija videti [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stranicu pomoći] na MediaWiki.org"
 }
