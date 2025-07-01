@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"شاه زمان پټان"
+		]
+	},
+	"prefs-userpage": "کارن مخ",
+	"realme-desc": "په کارن مخونو کې کارېدلي وېبتړنو باوري کولو ته اجازه ورکوي.",
+	"realme-preference-desc": "بهرنيو پېژنيالونو ته وېبتړنې:",
+	"realme-preference-error-invalid": "<code>$1</code> باوري وېبتړ نه دی.",
+	"realme-preference-error-not-http": "<code>$1</code> وېبتړ بايد د <code>$2</code> پرځای <code>http://</code> يا <code>https://</code> د پروتوکول په توگه وکاروي.",
+	"realme-preference-error-too-many": "تاسو يوازې {{PLURAL:$1|يوه وېبتړنه|$1 وېبتړنې}} ټاکلی شئ.",
+	"realme-preference-help": "مهرباني وکړئ هره ليکه کې يو وېبتړ ورگډ کړئ. کله چې دا وېبتړنې ستاسو په کارن مخ کې وکارول شي، نو <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element اېچ‌ټي‌اېم‌اېل نښلنونه] به هم له هغې سره په ورته‌والي مخ ته ورگډ شي، ځينې پليټ‌فارمونه (لکه ماستودون) د تاييد‌شوي پېژنيال تړنو نښه کولو په توگه کارېږي. لاډېرو مالوماتو لپاره په MediaWiki.org کې  [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe لارښود مخ] وگورئ.",
+	"realme-config-error-canonical": "مخ سرليکونه بايد د هغوی په اره بڼه کې  د <code>$2</code> پرځای د <code>$1</code> په کارولو سره وښودل شي.",
+	"realme-config-error-invalidtitle": "<code>$1</code> باوري مخ سرليک نه دی."
+}
