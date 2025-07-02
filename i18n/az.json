@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nemoralis"
+		]
+	},
+	"prefs-userpage": "İstifadəçi səhifəsi",
+	"realme-desc": "İstifadəçi səhifələrində istifadə edilən URL-ləri təsdiqləməyə imkan verir.",
+	"realme-preference-desc": "Xarici profillərin URL-ləri:",
+	"realme-preference-error-invalid": "<code>$1</code> etibarlı URL deyil.",
+	"realme-preference-error-not-http": "<code>$1</code> URL-si protokol olaraq <code>$2</code> əvəzinə <code>http://</code> və ya <code>https://</code> istifadə etməlidir.",
+	"realme-preference-error-too-many": "Siz yalnız {{PLURAL:$1|bir URL|$1 URL}} göstərə bilərsiniz.",
+	"realme-preference-help": "Zəhmət olmasa, hər sətirə bir URL əlavə edin. Bu URL-lər istifadəçi səhifənizdə istifadə edildikdə, bəzi platformaların (məsələn, Mastodon) profil bağlantılarını təsdiqlənmiş kimi qeyd etmək üçün istifadə etdiyi səhifəyə uyğun <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML teqləri] əlavə ediləcək. Əlavə məlumat üçün MediaWiki.org saytında [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe yardım səhifəsinə] baxın.",
+	"realme-config-error-canonical": "Səhifə başlıqları kanonik formada göstərilməlidir, <code>$2</code> əvəzinə <code>$1</code> istifadə edin.",
+	"realme-config-error-invalidtitle": "<code>$1</code> etibarlı səhifə başlığı deyil."
+}
