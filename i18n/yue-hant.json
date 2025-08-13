@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ktchankt"
+		]
+	},
+	"prefs-userpage": "用戶頁",
+	"realme-preference-desc": "指去出面個人資料嘅網址：",
+	"realme-preference-help": "每行加一個網址。當呢啲網址用落你個用戶頁，對應嘅<code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/zh-yue:HTML_element HTML標籤]將會加埋落嗰頁，有啲平台（譬如Mastodon）會將佢用於驗證個人資料連結。想知多啲，睇睇MediaWiki.org嘅[https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe 說明頁]。"
+}
