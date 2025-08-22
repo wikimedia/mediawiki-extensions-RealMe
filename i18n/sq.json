@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xhulianoo"
+		]
+	},
+	"prefs-userpage": "Faqja e përdoruesit",
+	"realme-desc": "Lejon verifikimin e URL-ve të përdorura në faqet e përdoruesve.",
+	"realme-preference-desc": "URL-të e profileve të jashtme:",
+	"realme-preference-error-invalid": "<code>$1</code> nuk është një URL e vlefshme.",
+	"realme-preference-error-not-http": "URL-ja <code>$1</code> duhet të përdorë ose <code>http://</code>, ose <code>https://</code> si protokoll në vend të <code>$2</code>.",
+	"realme-preference-error-too-many": "Mund të specifikosh vetëm {{PLURAL:$1|një URL|$1 URL}}.",
+	"realme-preference-help": "Të lutem, shto një URL për rresht. Kur këto URL të përdoren në faqen tënde të përdoruesit, <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element etiketa HTML] që përputhen do t'i shtohen faqes, të cilat disa platforma (për shembull, Mastodon) i përdorin për të shënuar lidhjet e profileve si të verifikuara. Për më shumë informacion, shih [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe faqen e ndihmës] në MediaWiki.",
+	"realme-config-error-canonical": "Titujt e faqeve duhet të specifikohen në formën e tyre kanonike, përdor <code>$1</code> në vend të <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> nuk është një titull i vlefshëm faqeje."
+}
