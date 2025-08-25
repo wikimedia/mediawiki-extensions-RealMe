@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saurmandal"
+		]
+	},
+	"prefs-userpage": "सदस्य पृष्ठ",
+	"realme-desc": "सदस्य पृष्ठों पर उपयुक्त URL-ओं को सत्यापित करने देता है।",
+	"realme-preference-desc": "बाहरी प्रोफ़ाइलों के URL:",
+	"realme-preference-error-invalid": "<code>$1</code> कोई मान्य URL नहीं है।",
+	"realme-preference-error-not-http": "URL <code>$1</code> को प्रोटोकॉल के रूप में <code>$2</code> की जगह या तो <code>http://</code> या फिर <code>https://</code> का उपयोग करना चाहिए।",
+	"realme-preference-error-too-many": "आप सिर्फ {{PLURAL:$1|एक URL|$1 URL}} निर्दिष्ट कर सकते हैं।",
+	"realme-preference-help": "कृपया एक पंक्ति में एक URL जोड़ें। जब इन URL-ओं का आपके सदस्य पृष्ठ पर प्रयोग किया जाएगा तब पृष्ठ पर मेल खाने वाले <code>&lt;link rel=\"me\"&gt;</code> [https://hi.wikipedia.org/wiki/एचटीएमएल_के_तत्व HTML टैग्स] जोड़ दिए जाएँगे, जिसका कुछ मंच (जैसे Mastodon) प्रोफ़ाइल की कड़ियों को सत्यापित चिह्नित करने के लिए उपयोग करते हैं। अधिक जानकारी के लिए MediaWiki.org पर [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe सहायता पृष्ठ] देखें।",
+	"realme-config-error-canonical": "पृष्ठों के शीर्षक उनके कैनोनिकल रूप में निर्दिष्ट होने चाहिए; <code>$2</code> की जगह <code>$1</code> का उपयोग करें।",
+	"realme-config-error-invalidtitle": "<code>$1</code> पृष्ठ का कोई शीर्षक नहीं है।"
+}
