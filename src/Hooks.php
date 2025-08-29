@@ -48,34 +48,15 @@ class Hooks implements
 		'RealMeUserPageUrlLimit',
 	];
 
-	/** @var ServiceOptions */
-	private ServiceOptions $options;
+	private readonly ServiceOptions $options;
 
-	/** @var UrlUtils */
-	private UrlUtils $urlUtils;
-
-	/** @var UserFactory */
-	private UserFactory $userFactory;
-
-	/** @var UserOptionsLookup */
-	private UserOptionsLookup $userOptionsLookup;
-
-	/**
-	 * @param Config $mainConfig
-	 * @param UrlUtils $urlUtils
-	 * @param UserFactory $userFactory
-	 * @param UserOptionsLookup $userOptionsLookup
-	 */
 	public function __construct(
 		Config $mainConfig,
-		UrlUtils $urlUtils,
-		UserFactory $userFactory,
-		UserOptionsLookup $userOptionsLookup
+		private readonly UrlUtils $urlUtils,
+		private readonly UserFactory $userFactory,
+		private readonly UserOptionsLookup $userOptionsLookup,
 	) {
 		$this->options = new ServiceOptions( self::CONSTRUCTOR_OPTIONS, $mainConfig );
-		$this->urlUtils = $urlUtils;
-		$this->userFactory = $userFactory;
-		$this->userOptionsLookup = $userOptionsLookup;
 	}
 
 	/** @inheritDoc */
