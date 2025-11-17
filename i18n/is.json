@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sveinn í Felli"
+		]
+	},
+	"prefs-userpage": "Notandasíða",
+	"realme-preference-desc": "URL-slóðir á utanaðkomandi notandasnið:",
+	"realme-preference-help": "Bættu við einni vefslóð á hverri línu. Þegar þessar vefslóðir eru notaðar á notandasíðunni þinni, þá verður samsvarandi <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element HTML-einindum] bætt við síðuna, sem sumir kerfi (eins og til dæmis Mastodon) nota til að merkja tengla á notendasniðum sem staðfesta. Nánari upplýsingar er að finna á [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe hjálparsíðunni] á MediaWiki.org."
+}
