@@ -9,5 +9,5 @@
 	"prefs-userpage": "Korisnička stranica",
 	"realme-desc": "Uvijek provjerava URL-ove koji se koriste na korisničkim stranicama.",
 	"realme-preference-desc": "URL adrese vanjskih profila",
-	"realme-preference-help": "Red treba sadržati samo jedan URL. Kada se URL adrese koriste na korisničkoj stranici, na nju će se dodati odgovarajuće [https://en.wikipedia.org/wiki/HTML_element HTML oznake] u obliku <code>&lt;link rel=\"me\"&gt;</code>, što neke platforme (poput Mastodona) koriste za potvrdu veza do profila. Za više informacija pogledajte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stranicu pomoći] na sajtu MediaWiki.org."
+	"realme-preference-help": "Red treba sadržati samo jedan URL. Kad se URL-ovi koriste na korisničkoj stranici, na nju će biti dodane odgovarajuće [https://en.wikipedia.org/wiki/HTML_element HTML oznake] u obliku <code>&lt;link rel=\"me\"&gt;</code>, što neke platforme (poput Mastodona) koriste za potvrdu veza do profila. Za više informacija pogledajte [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stranicu pomoći] na sajtu MediaWiki.org."
 }
