@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ainali",
-			"Sabelöga"
+			"Sabelöga",
+			"Stefan2255"
 		]
 	},
 	"prefs-userpage": "Användarsida",
@@ -11,5 +12,5 @@
 	"realme-preference-error-invalid": "<code>$1</code> är inte en giltig URL.",
 	"realme-preference-error-not-http": "URL <code>$1</code> måste använda antingen <code>http://</code> eller <code>https://</code> som protokoll istället för <code>$2</code>.",
 	"realme-preference-error-too-many": "Du kan bara ange {{PLURAL:$1|en URL|$1 URL:er}}.",
-	"realme-preference-help": "Lägg till en URL per rad. När dessa URL:er används på din användarsida kommer matchande <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-taggar] läggas till på sidan, som vissa plattformar (till exempel Mastodon) använder för att markera profillänkar som verifierade."
+	"realme-preference-help": "Lägg till en URL per rad. När dessa URL:er används på din användarsida kommer matchande <code>&lt;link rel=\"me\"&gt;</code> [https://en.wikipedia.org/wiki/HTML_element HTML-taggar] läggas till på sidan, som vissa plattformar (till exempel Mastodon) använder för att markera profillänkar som verifierade. För mer information, se [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe hjälpsidan] på MediaWiki.org."
 }

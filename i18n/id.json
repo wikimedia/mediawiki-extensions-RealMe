@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Agam Riyandana",
-			"David Wadie Fisher-Freberg"
+			"David Wadie Fisher-Freberg",
+			"Penyuwangi"
 		]
 	},
 	"prefs-userpage": "Halaman pengguna",
 	"realme-desc": "Mengizinkan memverifikasi URL yang digunakan pada halaman pengguna.",
 	"realme-preference-desc": "URL ke profil eksternal:",
-	"realme-preference-help": "Harap tambahkan satu URL per baris. Saat URL ini digunakan di halaman pengguna Anda, <code><meta rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element tag HTML] yang cocok akan ditambahkan ke halaman."
+	"realme-preference-help": "Harap tambahkan satu URL per baris. Saat URL ini digunakan di halaman pengguna Anda, tanda HTML yang sesuai [https://en.wikipedia.org/wiki/HTML_element] akan ditambahkan ke halaman tersebut, yang digunakan oleh beberapa anjungan (misalnya, Mastodon) untuk menandai tautan profil sebagai terverifikasi. Untuk informasi lebih lanjut, lihat halaman bantuan [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe] di MediaWiki.org."
 }
