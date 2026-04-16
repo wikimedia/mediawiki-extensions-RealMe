@@ -19,9 +19,9 @@
 
 namespace MediaWiki\Extension\RealMe;
 
+use MediaWiki\Language\MessageLocalizer;
 use MediaWiki\Title\Title;
 use MediaWiki\Utils\UrlUtils;
-use MessageLocalizer;
 
 class Validator {
 
