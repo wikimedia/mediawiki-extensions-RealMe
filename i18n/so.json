@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"prefs-userpage": "Bogga isticmaalaha",
+	"realme-desc": "Waxay u oggolaanaysaa xaqiijinta URLs-ka lagu isticmaalo bogagga isticmaalaha.",
+	"realme-preference-desc": "URLs-ka profile-yada dibadeed:",
+	"realme-preference-error-invalid": "<code>$1</code> ma aha URL sax ah.",
+	"realme-preference-error-not-http": "URL-ka <code>$1</code> waa inuu isticmaalaa <code>http://</code> ama <code>https://</code> halkii uu ka isticmaali lahaa <code>$2</code>.",
+	"realme-preference-error-too-many": "Waxaad cayimi kartaa oo keliya {{PLURAL:$1|hal URL|$1 URL-yada}}.",
+	"realme-preference-help": "Fadlan ku dar hal URL safkiiba. Marka URL-yadan lagu isticmaalo bogga isticmaalaha, waxaa lagu dari doonaa calaamadaha <code>&lt;link rel=\"me\"&gt;</code> ee [https://en.wikipedia.org/wiki/HTML_element HTML], kuwaas oo qaar ka mid ah goobaha (tusaale Mastodon) ay u isticmaalaan inay ku calaamadeeyaan isku xirka profile-ka inuu yahay la xaqiijiyey. Wixii faahfaahin dheeraad ah, eeg [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe bogga caawinta] ee MediaWiki.org.",
+	"realme-config-error-canonical": "Cinwaannada bogagga waa in lagu qeexaa qaabkooda saxda ah, isticmaal <code>$1</code> halkii aad ka isticmaali lahayd <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> ma aha cinwaan bog oo sax ah."
+}
