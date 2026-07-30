@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dj"
+		]
+	},
+	"prefs-userpage": "Felhasználói lap",
+	"realme-desc": "Lehetővé teszi a felhasználói lapokon használt URL-ek hitelesítését.",
+	"realme-preference-desc": "Külső profilok URL-jei:",
+	"realme-preference-error-invalid": "A(z) <code>$1</code> nem érvényes URL.",
+	"realme-preference-error-not-http": "A(z) <code>$1</code> URL-nek a <code>$2</code> helyett a <code>http://</code> vagy a <code>https://</code> protokollt kell használnia.",
+	"realme-preference-error-too-many": "Csak {{PLURAL:$1|egy URL|$1 URL}} adható meg.",
+	"realme-preference-help": "Soronként egy URL-t adj meg. Amikor ezeket az URL-eket használod a felhasználói lapodon, a megfelelő <code><link rel=\"me\"></code> [https://en.wikipedia.org/wiki/HTML_element HTML-címkék] hozzáadódnak a laphoz. Egyes platformok (például a Mastodon) ezek alapján jelölik meg hitelesítettként a profilhivatkozásokat. További információért lásd a MediaWiki.org [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe súgólapját].",
+	"realme-config-error-canonical": "A lapcímeket kanonikus alakjukban kell megadni; a <code>$2</code> helyett a <code>$1</code> alakot használd.",
+	"realme-config-error-invalidtitle": "A(z) <code>$1</code> nem érvényes lapcím."
+}
