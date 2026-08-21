@@ -1,10 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Luky001"
+			"Luky001",
+			"Wizzard"
 		]
 	},
 	"prefs-userpage": "Stránka redaktora",
+	"realme-desc": "Umožňuje overovať URL použité na používateľských stránkach.",
 	"realme-preference-desc": "Adresy URL na externé profily:",
-	"realme-preference-help": "Vložte jednu adresu URL na riadok. Keď budú tieto adresy URL použité na vašej redaktorskej stránke, bude na stránku vložená zodpovedajúca [https://cs.wikipedia.org/wiki/HTML_prvek HTML značka] <code>&lt;link rel=\"me\"&gt;</code>, ktorú niektoré platformy (napr. Mastodon) používajú pre označenie odkazov z&nbsp;profilu ako overených. Viac informácií nájdete na [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stránke pomocníka] na MediaWiki.org."
+	"realme-preference-error-invalid": "<code>$1</code> nie je platná URL.",
+	"realme-preference-error-not-http": "URL <code>$1</code> musí ako protokol používať <code>http://</code> alebo <code>https://</code> namiesto <code>$2</code>.",
+	"realme-preference-error-too-many": "Môžete zadať najviac {{PLURAL:$1|jednu URL|$1 URL}}.",
+	"realme-preference-help": "Vložte jednu adresu URL na riadok. Keď budú tieto adresy URL použité na vašej redaktorskej stránke, bude na stránku vložená zodpovedajúca [https://cs.wikipedia.org/wiki/HTML_prvek HTML značka] <code>&lt;link rel=\"me\"&gt;</code>, ktorú niektoré platformy (napr. Mastodon) používajú pre označenie odkazov z&nbsp;profilu ako overených. Viac informácií nájdete na [https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Extension:RealMe stránke pomocníka] na MediaWiki.org.",
+	"realme-config-error-canonical": "Názvy stránok musia byť zadané v kanonickom tvare, použite <code>$1</code> namiesto <code>$2</code>.",
+	"realme-config-error-invalidtitle": "<code>$1</code> nie je platný názov stránky."
 }
